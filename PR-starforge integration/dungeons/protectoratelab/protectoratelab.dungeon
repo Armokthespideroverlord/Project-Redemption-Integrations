@@ -1,0 +1,23 @@
+{
+  "metadata" : {
+    "name" : "starforge-protectoratelab",
+    "species" : "human",
+    "rules" : [
+    ],
+    "protected" : true,
+    "anchor" : [ "starforge-protectoratelab" ],
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "extendSurfaceFreeSpace" : 100
+  },
+
+  "parts" : [
+    {
+      "name" : "starforge-protectoratelab",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "protectoratelab.json" ]
+    }
+  ]
+}

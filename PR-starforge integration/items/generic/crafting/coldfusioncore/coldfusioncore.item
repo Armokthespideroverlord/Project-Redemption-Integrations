@@ -1,0 +1,10 @@
+{
+  "itemName" : "starforge-coldfusioncore",
+  "price" : 900,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "coldfusioncore.png",
+  "description" : "The pinnacle of contemporary energy generation technology, it glows as bright as the sun.",
+  "shortdescription" : "^orange;Cold Fusion Core^white;",
+  "itemTags" : ["starforge-starforge", "reagent"]
+}

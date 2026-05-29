@@ -1,0 +1,133 @@
+{
+"guardianCrate" : [
+  [0, {
+    "pool" : [
+      {"weight" : 0.3, "pool" : "basicTreasure"},
+      {"weight" : 0.05, "pool" : "guardianArms"},
+      {"weight" : 0.45, "pool" : "guardianUtilities"},
+      {"weight" : 0.15, "pool" : "guardianMemories"},
+      {"weight" : 0.05, "pool" : "guardianClothing"}
+    ],
+    "poolRounds" : [
+      [0.3, 1],
+      [0.5, 2],
+      [0.2, 3]
+    ],
+    "allowDuplication" : false
+  }]
+],
+"guardianArms" : [
+  [0, {
+    "pool" : [
+      {"weight" : 0.1, "pool" : "rareGun"},
+      {"weight" : 0.1, "item" : [ "militarygoods", 5]}
+    ],
+    "poolRounds" : [
+      [0.1, 0],
+      [0.9, 1]
+    ],
+    "allowDuplication" : false
+  }],
+  [3.9, {
+    "pool" : [
+      {"weight" : 0.1, "item" : [ "protectoratedrumrifle" ]},
+      {"weight" : 0.1, "item" : [ "protectorateplasmarifle" ]}
+    ],
+    "poolRounds" : [
+      [0.1, 0],
+      [0.9, 1]
+    ],
+    "allowDuplication" : false
+  }]
+],
+"guardianUtilities" : [
+  [0, {
+    "pool" : [
+      {"weight" : 0.1, "item" : [ "futurelight", 3]},
+      {"weight" : 0.1, "item" : [ "futurelight", 5]},
+      {"weight" : 0.2, "item" : [ "medicalgoods", 2]},
+      {"weight" : 0.2, "item" : [ "medicalgoods", 5]},
+      {"weight" : 0.2, "item" : [ "foodgoods", 2]},
+      {"weight" : 0.2, "item" : [ "foodgoods", 5]},
+      {"weight" : 0.1, "item" : [ "militarygoods", 3]},
+      {"weight" : 0.1, "item" : [ "militarygoods", 5]},
+      {"weight" : 0.2, "item" : [ "staticcell", 5]},
+      {"weight" : 0.2, "item" : [ "staticcell", 7]},
+      {"weight" : 0.2, "item" : [ "staticcell", 10]}
+    ],
+    "poolRounds" : [
+      [0.6, 2],
+      [0.4, 3]
+    ],
+    "allowDuplication" : false
+  }],
+  [3.9, {
+    "pool" : [
+      {"weight" : 0.1, "item" : [ "futurelight", 3]},
+      {"weight" : 0.1, "item" : [ "futurelight", 5]},
+      {"weight" : 0.2, "item" : [ "nanowrap", 2]},
+      {"weight" : 0.2, "item" : [ "medkit", 5]},
+      {"weight" : 0.2, "item" : [ "foodgoods", 2]},
+      {"weight" : 0.2, "item" : [ "foodgoods", 5]},
+      {"weight" : 0.1, "item" : [ "militarygoods", 3]},
+      {"weight" : 0.1, "item" : [ "militarygoods", 5]},
+      {"weight" : 0.2, "item" : [ "staticcell", 5]},
+      {"weight" : 0.2, "item" : [ "staticcell", 7]},
+      {"weight" : 0.2, "item" : [ "staticcell", 10]}
+    ],
+    "poolRounds" : [
+      [0.6, 2],
+      [0.4, 3]
+    ],
+    "allowDuplication" : false
+  }]
+],
+"guardianMemories" : [
+  [0, {
+    "pool" : [
+      {"weight" : 0.2, "item" : [ "protectoratefreedomposter", 1]},
+      {"weight" : 0.2, "item" : [ "protectoratehologlobe", 1]},
+      {"weight" : 0.2, "item" : [ "humanhistory4-codex", 1]},
+      {"weight" : 0.2, "item" : [ "humanhistory5-codex", 1]},
+      {"weight" : 0.2, "item" : [ "humanhistory7-codex", 1]},
+      {"weight" : 0.2, "item" : [ "humanhistory8-codex", 1]},
+      {"weight" : 0.2, "item" : [ "guardian1-codex", 1]}
+    ],
+    "poolRounds" : [
+      [0.1, 0],
+      [0.9, 1]
+    ],
+    "allowDuplication" : false
+  }]
+],
+
+
+
+"guardianClothing" : [
+  [3.9, {
+    "pool" : [
+      {"weight" : 0.5, "pool" : "guardianUniform"}
+    ],
+    "poolRounds" : [
+      [0.1, 0],
+      [0.9, 1]
+    ],
+    "allowDuplication" : false
+  }]
+],
+"guardianUniform" : [
+  [0, {
+    "fill" : [
+      {"weight" : 0.1, "item" : [ "protectoratefieldarmourchest" ] },
+      {"weight" : 0.1, "item" : [ "protectoratefieldarmourpants" ] }
+    ],
+    "pool" : [
+      {"weight" : 0.8, "item" : [ "protectoratefieldarmourhead" ] },
+      {"weight" : 0.2, "item" : [ "protectoratefieldarmourheadnuu" ] }
+    ],
+    "poolRounds" : [
+      [1, 1]
+    ]
+  }]
+]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName" : "starforge-protectium",
+  "price" : 900,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "protectium.png",
+  "description" : "An alloy that protects perfectly against foe and environment alike.",
+  "shortdescription" : "^orange;Protectium^reset;",
+  "itemTags" : ["starforge-starforge", "reagent"]
+}

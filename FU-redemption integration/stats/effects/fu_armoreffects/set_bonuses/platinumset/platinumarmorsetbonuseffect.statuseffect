@@ -1,0 +1,11 @@
+{
+	"name" : "platinumarmorsetbonuseffectnew",
+	"defaultDuration" : 15,
+
+	"scripts" : [
+		"platinumarmorsetbonuseffect.lua"
+	],
+	"scriptDelta": 60,
+
+	"animationConfig" : "/stats/effects/damagebonus/damagebonus.animation"
+}

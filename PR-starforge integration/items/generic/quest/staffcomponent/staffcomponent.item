@@ -1,0 +1,11 @@
+{
+  "itemName" : "starforge-staffcomponent",
+  "price" : 1000,
+  "rarity" : "Essential",
+  "category" : "Quest Item",
+  "inventoryIcon" : "staffcomponent.png",
+  "description" : "A piece of an unfinished experimental weapon. It is of Protectorate design.",
+  "shortdescription" : "^orange;Staff Component^white;",
+  "itemTags" : [ "questitem" ],
+  "pickupQuestTemplates" : [ "protectoratestaffquest1" ]
+}

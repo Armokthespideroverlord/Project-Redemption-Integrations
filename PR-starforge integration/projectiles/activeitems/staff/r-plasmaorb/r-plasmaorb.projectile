@@ -1,0 +1,102 @@
+{
+  "projectileName": "r-plasmaorb",
+  "physics": "hover",
+  "timeToLive": 7,
+  "image": "r-plasmaorb.png",
+  "animationCycle": 0.3,
+  "lightColor": [
+    115, 200, 255
+  ],
+  "fullbright" : true,
+  "frameNumber": 4,
+  "windupFrames": 7,
+  "flippable": true,
+  "periodicActions": [],
+  "actionOnReap": [
+    {
+      "action": "sound",
+      "options": [
+        "/sfx/gun/impact_plasma.ogg"
+      ]
+    },
+    {
+      "action": "loop",
+      "count": 5,
+      "body": [
+        {
+          "action": "particle",
+          "specification": "protectorblade",
+          "time": 0.1,
+          "repeat": true
+        },
+        {
+          "action": "particle",
+          "specification": "protectorblade2",
+          "time": 0.1,
+          "repeat": true
+        }
+      ]
+    }
+  ],
+  "speed": 0,
+  "power": 30,
+  "damageKind": "default",
+  "damagePoly": [],
+  "emitters": [],
+  "renderLayer": "Projectile+1",
+  "orientationLocked": true,
+  "bounces": -1,
+  "onlyHitTerrain": true,
+  "scripts": [
+    "/projectiles/activeitems/staff/r-staffprojectile.lua"
+  ],
+  "scriptDelta": 1,
+  "controlMovement": {
+    "maxSpeed": 40,
+    "controlForce": 30
+  },
+"searchDistance" : 40,
+  "projectileType" : "plasma2",
+  "cooldownTime" : 0.2,
+  /*"timedActions": [
+    {
+      "delayTime": 0.5,
+      "loopTime": 0.2,
+      "loopTimeVariance": 0.05,
+      "action": "projectile",
+      "type": "plasma2",
+      "config": {},
+      "inheritDamageFactor": 0.25,
+      "direction": [
+        1,
+        0
+      ],
+      "offsetRange": [
+        0,
+        -0.2,
+        0,
+        -0.2
+      ]
+    },
+    {
+      "delayTime": 0.5,
+      "loopTime": 0.2,
+      "loopTimeVariance": 0.05,
+      "action": "projectile",
+      "type": "plasma2",
+      "config": {},
+      "inheritDamageFactor": 0.25,
+      "direction": [
+        -1,
+        0
+      ],
+      "offsetRange": [
+        0,
+        -0.2,
+        0,
+        -0.2
+      ]
+    }
+  ],*/
+  "persistentAudio": "/sfx/melee/elemental_aura.ogg"
+}

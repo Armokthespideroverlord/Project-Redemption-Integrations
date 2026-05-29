@@ -1,0 +1,35 @@
+{
+  "objectName" : "miniuscm",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 80,
+
+  "description" : "What does USCM stand for, again?",
+  "shortdescription" : "Small USCM Sign",
+  "race" : "human",
+
+  "apexDescription" : "A slightly more subtle version of the infamous four.",
+  "avianDescription" : "This sign has seen better days...",
+  "floranDescription" : "Ssstupid, blatant sign. Floransss try to be more sssneaky about their presence.",
+  "glitchDescription" : "Joking. A more reasonable size, for mercenaries with longer blades.",
+  "humanDescription" : "I wonder why the stragglers don't just give up and live their lives? Are they really that attached to their pride?",
+  "hylotlDescription" : "They seem to have cheaped out on their paint; it's already peeling.",
+  "novakidDescription" : "White paint on th' wall, read'n USCM.",
+  "nuuDescription" : "You used to be able to buy old USCM surplus on the cheap, back on Earth.",
+  "gluttDescription" : "SCM, thy rn't 's tgh 's thy mk thmslvs lk.",
+
+  "inventoryIcon" : "miniuscmicon.png",
+  "orientations" : [
+    {
+      "image" : "miniuscm.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

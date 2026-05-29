@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Essential"
+  },
+{
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#008CD9;Guardian's Bastion^reset;"
+  }
+]

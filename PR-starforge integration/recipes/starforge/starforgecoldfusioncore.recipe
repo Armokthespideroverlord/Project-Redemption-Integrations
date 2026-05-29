@@ -1,0 +1,16 @@
+{
+  "input" : [
+    { "item" : "starforge-ancientcore", "count" : 1 },
+	{ "item" : "starforge-etherealgoo", "count" : 1 },
+	{ "item" : "starforge-cerulium", "count" : 1 },
+	{ "item" : "starforge-yukaipearl", "count" : 1 },
+	{ "item" : "goldbar", "count" : 3 },
+	{ "item" : "essence", "count" : 500}
+  ],
+  "output" : {
+    "item" : "starforge-coldfusioncore",
+    "count" : 1
+  },
+  "groups" : [ "starforge-starforge", "ingredients" ],
+  "duration" : 0
+}

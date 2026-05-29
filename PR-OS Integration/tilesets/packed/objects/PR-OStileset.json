@@ -1,0 +1,36 @@
+{ "columns":1,
+ "image":"..\/..\/..\/objects\/protectorate\/objects\/protectorateincapnostos\/protectorateincapnostos.png",
+ "imageheight":16,
+ "imagewidth":40,
+ "margin":0,
+ "name":"PR-OStileset",
+ "spacing":0,
+ "tilecount":1,
+ "tileheight":16,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"Rest in peace fellow NostOS...",
+         "\/\/name":"nr_protectorateincapnostos",
+         "\/\/shortdescription":"Protectorate Body",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"nr_protectorateincapnostos"
+        }
+    },
+ "tilepropertytypes":
+    {
+     "0":
+        {
+         "\/\/description":"string",
+         "\/\/name":"string",
+         "\/\/shortdescription":"string",
+         "imagePositionX":"string",
+         "imagePositionY":"string",
+         "object":"string"
+        }
+    },
+ "tilewidth":40,
+ "type":"tileset"
+}

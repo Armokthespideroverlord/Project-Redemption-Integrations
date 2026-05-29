@@ -1,0 +1,30 @@
+[{"op": "replace","path": "/tooltipKind","value": "gun2"},
+{"op": "add","path": "/critChance","value": 2},
+{"op": "add","path": "/critBonus","value": 2},
+{"op": "add","path": "/itemTags/-","value": "upgradeableWeapon"},
+{"op": "add","path": "/itemTags/-","value": "protectorate"},
+{"op": "add","path": "/itemTags/-","value": "plasma"},
+{
+    "op": "add",
+    "path": "/upgradeParameters",
+    "value": {
+      "inventoryIcon" : "brokenprotectorspistol2.png",
+      "shortdescription": "^cyan;Guardian Gun^reset; ^yellow;^reset;",
+      "description": "Fixed and improved.",
+      "animationParts": {
+        "butt" : "",
+    "middle" : "brokenprotectorspistol2.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/unrand/spaceplasmarifle/muzzleflash.png"
+      },
+      "critChance": 3,
+      "critBonus": 4,
+      "primaryAbility": {
+        "fireTime": 0.35,
+        "baseDps": 6.25,
+        "energyUsage" : 18,
+	"projectileType" : "r-protectorateplasma"
+      }
+    }
+  }
+]

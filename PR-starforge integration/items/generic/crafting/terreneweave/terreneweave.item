@@ -1,0 +1,10 @@
+{
+  "itemName" : "starforge-terreneweave",
+  "price" : 900,
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "terreneweave.png",
+  "description" : "This synthetic fiber compound is capable of enhancing strength through storing energy.",
+  "shortdescription" : "^orange;Terrene Weave^white;",
+  "itemTags" : ["starforge-starforge", "reagent"]
+}

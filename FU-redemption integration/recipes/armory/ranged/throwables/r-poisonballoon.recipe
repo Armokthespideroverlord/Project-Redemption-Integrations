@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "liquidpoison", "count" : 50 },
+    { "item" : "polymer", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "r-poisonballoon",
+    "count" : 5
+  },
+  "groups" : [ "armory1", "consumables", "all" ],
+  "duration" : 0.05
+}

@@ -1,0 +1,17 @@
+{
+  "input" : [
+	{ "item" : "essence", "count" : 5000},
+{ "item" : "starforge-coldfusioncore", "count" : 1},
+{ "item" : "starforge-infusedtitanium", "count" : 10},
+{ "item" : "goldbar", "count" : 5}
+
+	
+  ],
+  "output" : {
+    "item" : "starforge-protectorsstaff",
+    "count" : 1
+  },
+  "groups" : [ "starforge-starforge", "weapons" ],
+  "duration" : 2
+}
+

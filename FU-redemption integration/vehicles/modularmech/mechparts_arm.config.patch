@@ -1,0 +1,19 @@
+[
+	[
+		{
+			"op": "add",
+			"path": "/r-widefire/elementalType",
+			"value": "fire"
+		},
+		{
+			"op": "add",
+			"path": "/r-widefire/stats/mechMass",
+			"value": 4
+		},
+		{
+			"op": "replace",
+			"path": "/r-widefire/partParameters/projectileParameters/power",
+			"value": 4
+		}
+	]
+]

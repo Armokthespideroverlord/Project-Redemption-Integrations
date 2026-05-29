@@ -1,0 +1,10 @@
+{
+  "name" : "protectoratearmordisplayoff",
+  "effectConfig" : {},
+  "defaultDuration" : 0.2,
+
+  "scripts" : [],
+
+  "label" : "Medicine Injector Offline",
+  "icon" : "/interface/statuses/tar.png"
+}

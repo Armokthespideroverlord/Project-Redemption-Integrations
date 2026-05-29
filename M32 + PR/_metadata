@@ -1,0 +1,11 @@
+{
+  "author" : "Lemon Drops",
+  "description" : "Smoothes operation between M32 and Project Redemption in some of the following ways:\n- Adds some P.R. dungeons and resources to certain Maple32 planets.\n- Replaces some placeholder bandits in certain M32 dungeons with U.S.C.M. mercenaries from P.R.\n- The P.R. constructor anvil addon can craft the necessary EPP augments that recently replaced the special EPPs from M32.\n- The Hateblade and Energy Javelin recipes now include P.R.'s Impervium.\n- 5 entirely new encounter dungeons featuring the Terrene Guardians.\n- New armor, weapons, and other things from the dead PRDA mod reworked into stuff for the Terrene Guardians.\n- A new codex that gives a bit more context for what the guardians are all about.\n\n[u][url=https://rvlt.gg/rnzt2N5v]Join the M32 Revolt server[/url][/u] (!THIS IS NOT DISCORD!)\n\n[u][url=https://discord.com/invite/MBaUNt8]Join Armok's Discord server[/url][/u]\n\n(I won't be in Armok's server because I don't have a Discord anymore. I deleted my account when I lost a bet.)",
+  "friendlyName" : "Maple32 + Project Redemption Joint Operation",
+  "includes" : ["Maple32", "Project Redemption"],
+  "link" : "steam://url/CommunityFilePage/3023394578",
+  "name" : "M32+ProjectRedemption",
+  "steamContentId" : "3023394578",
+  "tags" : "Miscellaneous|Planets and Environments|NPCs and Creatures|Weapons|Dungeons|Furniture and Objects|Armor and Clothes",
+  "version" : "1.4.5"
+}

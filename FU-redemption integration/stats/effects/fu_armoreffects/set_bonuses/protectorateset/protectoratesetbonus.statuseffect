@@ -1,0 +1,8 @@
+{
+  "name" : "protectoratesetbonus",
+  "defaultDuration" : 15,
+  "effectConfig":{"setName":"fu_protectorateset","setStatEffects":["protectoratesetbonuseffect"]},
+
+  "scripts":["/stats/effects/fu_armoreffects/setbonuses_generichandler.lua"],
+  "scriptDelta": 60
+}

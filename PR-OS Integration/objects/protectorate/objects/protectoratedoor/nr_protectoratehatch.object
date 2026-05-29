@@ -1,0 +1,59 @@
+{
+  "objectName" : "nr_protectoratehatch",
+  "colonyTags" : ["door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 125,
+  "description" : "A hatch suitable for a spaceship.",
+  "shortdescription" : "Protectorate Hatch",
+  "race" : "protectorate",
+
+  "apexDescription" : "An airlock.",
+  "avianDescription" : "An airlock.",
+  "floranDescription" : "A door.",
+  "glitchDescription" : "Neutral. An airlock.",
+  "humanDescription" : "An airlock.",
+  "hylotlDescription" : "An airlock.",
+  "novakidDescription" : "An airlock.",
+  "nostosDescription": "An airlock.",
+
+  "inventoryIcon" : "nr_protectoratehatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "nr_protectoratehatch.png:default",
+      "imagePosition" : [-16, -20],
+      "renderLayer" : "Object+5",
+
+      "spaces" : [ 
+                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
+                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ],
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "nr_protectoratehatch.png"
+  },
+  "animationPosition" : [-16, -20],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

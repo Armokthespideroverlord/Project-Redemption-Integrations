@@ -1,0 +1,21 @@
+{
+  "projectileName" : "protectorateplasmabulletsmall",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "protectorateplasmabulletsmall.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 3,
+  "power" : 50,
+  "speed" : 150,
+  "emitters" : [ "electricplasma", "defaultblue", "electricplasma", "defaultblue", "electricplasma", "defaultblue"  ],
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/protectorateplasmaexplosions/protectorateplasmaexplosion2.config"
+    }
+  ],
+  "lightColor" : [183, 155, 255],
+  "damageKind" : "electricplasmabullet"
+}

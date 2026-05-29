@@ -1,0 +1,12 @@
+{
+  "input" : [
+{ "item" : "starforge-coldfusioncore", "count" : 1 },
+    { "item" : "starforge-protectium", "count" : 12 },
+{ "item" : "starforge-terreneweave", "count" : 6 },
+{ "item" : "goldbar", "count" : 12 },
+{ "item" : "essence", "count" : 1000}
+  ],
+  "duration" : 2,
+  "output" : { "item" : "protectoratearmorchest", "count" : 1 },
+  "groups" : [ "starforge-starforge", "armours" ]
+}

@@ -1,0 +1,37 @@
+{
+  "objectName" : "protectoratebarricade",
+  "rarity" : "Rare",
+  "price" : 50,
+  "printable" : false,
+
+  "description" : "A metal and concrete barricade.",
+  "shortdescription" : "Terrene Guardian Barricade",
+  "race" : "protectorate",
+
+  "floranDescription" : "Blockss of sstuff that stopss bulletss and sspeeding carss.",
+  "glitchDescription" : "Speculative. Some sort of advanced merlon.",
+  "novakidDescription" : "A block o' strong stuff, sure t' stop bullets in a shootout.",
+
+  "category" : "decorative",
+
+  "inventoryIcon" : "protectoratebarricadeicon.png",
+  "orientations" : [
+    {
+      "image" : "protectoratebarricade.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "protectoratebarricade.png:<color>.<frame>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

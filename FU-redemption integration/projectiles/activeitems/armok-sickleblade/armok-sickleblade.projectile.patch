@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/damageKind",
+    "value": "shadowbroadsword"
+  },
+  {
+    "op": "add",
+    "path": "/statusEffects/-",
+    "value": "shadowgasfx"
+  }
+]

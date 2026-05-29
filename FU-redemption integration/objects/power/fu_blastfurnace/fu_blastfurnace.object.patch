@@ -1,0 +1,15 @@
+[
+  {
+    "op": "add",
+    "path": "/inputsToOutputs/platinumore",
+    "value": "platinumbar"
+  },
+  {
+    "op": "add",
+    "path": "/bonusOutputs/platinumore",
+    "value": {
+      "ff_silicon": 26,
+      "fu_carbondioxide": 30
+    }
+  }
+]

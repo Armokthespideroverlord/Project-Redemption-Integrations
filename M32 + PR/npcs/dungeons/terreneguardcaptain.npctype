@@ -1,0 +1,194 @@
+{
+  "type" : "terreneguardcaptain",
+  "baseType" : "guard",
+
+
+  "scriptConfig" : {
+  "dialog" : {
+    "converse" : {
+      "default" : {
+        "default" : [
+          "I'm in charge around here, but that doesn't mean much now...",
+          "We'd never be in this situation if the Guardians had been better prepared for a planet killing monster...",
+          "I swear, if the Occasus were actually behind this...",
+          "I was promoted just in time for the ground to rupture and those nasty tentacles to ruin my life!",
+          "My crew is a bit... Difficult at times. But they do all that's required.",
+          "Don't tell the crew I said this, but we're definitely going to die on this rock.",
+          "I'm starting to think a chain of command with only two links... underperforms a bit.",
+          "We definitely don't have enough supplies for what's ahead, but we'll manage. Yes."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "Floran iss 'Captain'. Thiss meanss Floran iss in charge.",
+          "Captain iss like Greenfinger, but not jusst for Floranss!",
+          "Good thing Floran iss captain, otherss are incompetent outdoorssmen.",
+          "Floran no longer protectss Earth, more focusssed on keeping Floran'ss crew alive.",
+          "Floran'ss crew are too ssquisshy, they need to learn to be tough like Floran."
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Self-conscious. I'm not sure I am the best of leaders, but I will keep trying my best. After all, it is all I can do.",
+          "Boastful. I shall lead my crew to glory, like the heroes of old!",
+          "Authoritative. I was appointed captain, which means I can order others around!",
+          "Overwhelmed. There is too much to do, all outside my ability.",
+          "Boastful. I think the 'Captain' title suits me very well indeed!"
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "I'm th' cap'n which means I'm boss aroun' 'ere.",
+          "We don't have enough supplies fer new volunteers, I'm 'fraid.",
+          "Heard anythin' 'bout comms lines, pardner? We've been cut off from ever'thing.",
+          "We're cut off from logi, at this rate've expenditure we'll have t' grow our own food soon.",
+          "I'm not actually th' real cap'n, he's 6 feet down o'er yonder. I just got an 'unofficial field promotion' so t' speak."
+        ]
+      }
+    },
+    "greeting" : {
+      "default" : {
+        "default" : [
+          "I'm in charge around here, but that doesn't mean much now...",
+          "We'd never be in this situation if the Guardians had been better prepared for a planet killing monster...",
+          "I swear, if the Occasus were actually behind this...",
+          "I was promoted just in time for the ground to rupture and those nasty tentacles to ruin my life!",
+          "My crew is a bit... Difficult at times. But they do all that's required.",
+          "Don't tell the crew I said this, but we're definitely going to die on this rock.",
+          "I'm starting to think a chain of command with only two links... underperforms a bit.",
+          "We definitely don't have enough supplies for what's ahead, but we'll manage. Yes."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "Floran iss 'Captain'. Thiss meanss Floran iss in charge.",
+          "Captain iss like Greenfinger, but not jusst for Floranss!",
+          "Good thing Floran iss captain, otherss are incompetent outdoorssmen.",
+          "Floran no longer protectss Earth, more focusssed on keeping Floran'ss crew alive.",
+          "Floran'ss crew are too ssquisshy, they need to learn to be tough like Floran."
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Self-conscious. I'm not sure I am the best of leaders, but I will keep trying my best. After all, it is all I can do.",
+          "Boastful. I shall lead my crew to glory, like the heroes of old!",
+          "Authoritative. I was appointed captain, which means I can order others around!",
+          "Overwhelmed. There is too much to do, all outside my ability.",
+          "Boastful. I think the 'Captain' title suits me very well indeed!"
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "I'm th' cap'n which means I'm boss aroun' 'ere.",
+          "We don't have enough supplies fer new volunteers, I'm 'fraid.",
+          "Heard anythin' 'bout comms lines, pardner? We've been cut off from ever'thing.",
+          "We're cut off from logi, at this rate've expenditure we'll have t' grow our own food soon.",
+          "I'm not actually th' real cap'n, he's 6 feet down o'er yonder. I just got an 'unofficial field promotion' so t' speak."
+        ]
+      }
+    }
+  }
+  },
+
+  "items" : {
+  "apex" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "avian" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "floran" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "glitch" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "human" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "hylotl" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "novakid" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "nuu" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "glutt" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier4head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier4chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier4pants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "durasteelassaultrifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ]
+  }
+}

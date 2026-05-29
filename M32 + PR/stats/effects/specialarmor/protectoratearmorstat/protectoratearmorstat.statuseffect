@@ -1,0 +1,12 @@
+{
+  "name" : "protectoratearmorstat",
+  "effectConfig" : {
+  },
+  "defaultDuration" : 0.2,
+
+  "scripts" : [
+    "protectoratearmorstat.lua"
+  ],
+
+  "scriptDelta" : 10
+}

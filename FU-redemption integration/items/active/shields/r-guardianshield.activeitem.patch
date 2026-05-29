@@ -1,0 +1,167 @@
+[
+  {
+    "op": "add",
+    "path": "/shieldHealthRegen",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/shieldEnergyRegen",
+    "value": 0.3
+  },
+  {
+    "op": "add",
+    "path": "/shieldHealthBonus",
+    "value": 0.2
+  },
+  {
+    "op": "add",
+    "path": "/shieldEnergyBonus",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/shieldProtection",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/shieldStamina",
+    "value": 0.5
+  },
+  {
+    "op": "add",
+    "path": "/shieldFalling",
+    "value": -0.1
+  },
+  {
+    "op": "add",
+    "path": "/shieldCritChance",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/shieldCritBonus",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionBee",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionAcid",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionBlacktar",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionBioooze",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionPoison",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionLava",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionFire",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionProto",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionCold",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionHeat",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionRads",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionXCold",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionXHeat",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionXRads",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionInsanity",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/protectionShock",
+    "value": 1
+  },
+  {
+    "op": "add",
+    "path": "/protectionSlime",
+    "value": 0
+  },
+  {
+    "op": "add",
+    "path": "/shieldBash",
+    "value": 10
+  },
+  {
+    "op": "add",
+    "path": "/shieldBashPush",
+    "value": 10
+  },
+  {
+    "op": "replace",
+    "path": "/tooltipKind",
+    "value": "shieldnew"
+  },
+  {
+    "op": "add",
+    "path": "/itemTags/-",
+    "value": "upgradeableWeapon"
+  },
+  {
+    "op": "replace",
+    "path": "/scripts/0",
+    "value": "/items/active/shields/fu-shieldbash.lua"
+  },
+{
+    "op": "replace",
+    "path": "/description",
+    "value": "A ceremonial shield modeled after the Terrene Guardian logo. ^green;-10% Fall Damage^reset;, ^cyan;Immune: Shock^reset;"
+  },
+  {
+    "op": "replace",
+    "path": "/builder",
+    "value": "/items/buildscripts/fubuildunrandshield.lua"
+  }
+]

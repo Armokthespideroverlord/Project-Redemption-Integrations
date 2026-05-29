@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "starforge-luminesilk", "count" : 1 },
+    { "item" : "starforge-emberfabric", "count" : 1 },
+	{ "item" : "starforge-undyingfibre", "count" : 1 },
+	{ "item" : "essence", "count" : 20}
+  ],
+  "output" : {
+    "item" : "starforge-terreneweave",
+    "count" : 1
+  },
+  "groups" : [ "starforge-starforge", "ingredients" ],
+  "duration" : 0
+}

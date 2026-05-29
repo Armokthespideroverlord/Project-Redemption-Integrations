@@ -1,0 +1,35 @@
+{
+  "objectName" : "protectoratefreedomposter",
+  "colonyTags" : ["protectorate","pretty","combat"],
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 55,
+
+  "shortdescription" : "Terrene Guardians Poster",
+  "description" : "I wonder if they really dress that way all the time? It looks kind of stuffy...",
+  "race" : "protectorate",
+
+  "apexDescription" : "This armor looks warm; it would be great for snowy planets. But for earth? With the SAHARA!?",
+  "avianDescription" : "These uniforms look kind of dorky. At least the color's nice?",
+  "floranDescription" : "Floran lovess sshooting and sstabbing! Sshooting and sstabbing purplecloaks even more! Where can Floran ssign up?",
+  "glitchDescription" : "Sombre. With earth gone, is there anything left for them to guard?",
+  "humanDescription" : "Ah, yes! Training and training for a war that never comes. But when you stop, THEN the planet blows up.",
+  "hylotlDescription" : "With earth gone, these posters are in finite supply; the printing plant is probably in ten-thousand little pieces.",
+  "novakidDescription" : "I won't join no special forces! I'll be a lone, dangerous, mysterious stranger 'till th' day I hit th' sand!",
+  "nuuDescription" : "If you do not pass the Protectorate exam, you can always join the Guardians. Except not anymore, I would think.",
+  "gluttDescription" : "T pprs t b   rcrtmnt pstr.",
+
+  "inventoryIcon" : "protectoratefreedompostericon.png",
+  "orientations" : [
+    {
+      "image" : "protectoratefreedomposter.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

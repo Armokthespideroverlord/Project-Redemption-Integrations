@@ -1,0 +1,96 @@
+[
+{"op": "replace","path": "/tooltipKind","value": "gununique"},
+{"op": "replace","path": "/level","value": "5"},
+  {
+    "op": "add",
+    "path": "/critChance",
+    "value": 3
+  },
+  {
+    "op": "add",
+    "path": "/critBonus",
+    "value": 4
+  },
+  {
+    "op": "add",
+    "path": "/itemTags/-",
+    "value": "upgradeableWeapon"
+  },
+  {
+    "op": "add",
+    "path": "/itemTags/-",
+    "value": "protectorate"
+  },
+{"op": "add","path": "/itemTags/-","value": "plasma"},
+  {
+    "op": "add",
+    "path": "/upgradeParameters",
+    "value": {
+      "shortdescription": "^cyan;Master Gun^reset; ^yellow;^reset;",
+      "description": "An exquisite gun.",
+      "critChance": 3,
+      "critBonus": 4
+    }
+  },
+  {
+    "op": "add",
+    "path": "/upgradeParameters",
+    "value": {
+      "shortdescription": "^cyan;Power Gun^reset; ^yellow;^reset;",
+      "description": "An exquisite gun.",
+      "critChance": 4,
+      "critBonus": 6,
+      "elementalType": "silverweapon",
+      "primaryAbilityType": "chargefire",
+      "primaryAbility": {
+        "chargeLevels": [
+          {
+            "time": 0,
+            "energyCost": 5,
+            "cooldown": 0.1,
+            "projectileType": "r-protectorateplasma2",
+            "projectileParameters": {},
+            "inaccuracy": 0,
+            "baseDamage": 2,
+            "fireSound": "fire"
+          },
+          {
+            "time": 0.5,
+            "energyCost": 15,
+            "cooldown": 0.1,
+            "projectileType": "r-stickyplasma2",
+            "projectileParameters": {},
+            "inaccuracy": 0,
+            "baseDamage": 6,
+            "fireSound": "fire2"
+          },
+          {
+            "time": 1,
+            "energyCost": 40,
+            "cooldown": 0.5,
+            "projectileType": "r-energybeam",
+            "projectileParameters": {
+              "actionOnReap": [
+                {
+                  "action": "projectile",
+                  "type": "protectorateexplosion2",
+                  "inheritDamageFactor": 0.25,
+                  "config": {}
+                },
+                {
+                  "action": "sound",
+                  "options": [
+                    "/sfx/gun/plasma_shotgun1.ogg"
+                  ]
+                }
+              ]
+            },
+            "inaccuracy": 0,
+            "baseDamage": 9.5,
+            "fireSound": "fire3"
+          }
+        ]
+      }
+    }
+  }
+]

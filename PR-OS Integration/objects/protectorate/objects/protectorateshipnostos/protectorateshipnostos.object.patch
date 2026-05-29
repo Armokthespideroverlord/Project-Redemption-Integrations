@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/nostosDescription",
+    "value": "Ah, here's my new ship. Seems oddly in good shape, given what's happened to this place."
+  }
+]

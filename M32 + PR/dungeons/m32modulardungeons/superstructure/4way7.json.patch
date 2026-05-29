@@ -1,0 +1,82 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/22/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/23/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/24/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/25/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/26/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  }
+]

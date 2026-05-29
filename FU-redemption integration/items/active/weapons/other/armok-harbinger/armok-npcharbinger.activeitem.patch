@@ -1,0 +1,23 @@
+[{
+    "op": "add",
+    "path": "/itemTags/-",
+    "value": "shadow"
+  },
+  {
+    "op": "replace",
+    "path": "/elementalType",
+    "value": "shadow"
+  },
+  {
+    "op": "replace",
+    "path": "/primaryAbility/damageConfig/damageSourceKind",
+    "value": "shadowbroadsword"
+  },
+  {
+    "op": "add",
+    "path": "/primaryAbility/damageConfig/statusEffects/-",
+    "value": "shadowgasfx"
+  },
+{"op": "add","path": "/critChance","value": 4},
+{"op": "add","path": "/critBonus","value": 14}
+]

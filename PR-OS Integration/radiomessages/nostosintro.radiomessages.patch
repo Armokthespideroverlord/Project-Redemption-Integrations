@@ -1,0 +1,37 @@
+[
+{
+    "op": "replace",
+    "path": "/nr_exitBed/text",
+    "value": "Hurry up, the remnant of the Earth's atmosphere aren't going to keep you alive forever. ^#71f2f6;Press A or D to get up^white;."
+  },
+  {
+    "op": "replace",
+    "path": "/nr_nostosUniform/text",
+    "value": "This locker contains a Protectorate uniform inside of it, you may take it if you so desire."
+  },
+{
+    "op": "replace",
+    "path": "/nr_nostosStatus/text",
+    "value": "My scans indicate that the ship is currently above us on the roof of this complex. It seems mostly unharmed luckily, we're going to need it to get out."
+  },
+{
+    "op": "replace",
+    "path": "/nr_nostosProtectorateSword/text",
+    "value": "I'd recommend taking the sword from that Weapons Chest, it may be useful to you in the future. If nothing else, it could perhaps be used for spare parts."
+  },
+{
+    "op": "replace",
+    "path": "/nr_nostosProtectorateSwordPester/text",
+    "value": "Please take the sword, it may be heavily damaged, but it is a reliable weapon. Especially if it were repaired."
+  },
+{
+    "op": "replace",
+    "path": "/nr_nostosShip/text",
+    "value": "The ship is dead ahead, plug me into your new ship and I will get us out of here. However, with the ship in disrepair, we can only make a single jump."
+  },
+{
+    "op": "replace",
+    "path": "/nr_nostosPeacekeeper/text",
+    "value": "My databanks have told me that these sub-offices were being used by an organization aligned with the Protectorate, investigating some sort of cult. While this may not be relevant, the data does say that there is a keypad in this section."
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "op": "replace",
+    "path": "/shipPetType",
+    "value": "petorbis"
+  },
+{
+    "op": "replace",
+    "path": "/dialog/wakeUp/1",
+    "value": [
+      "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintenance of your ship.",
+      "/ai/portraits/nostosportrait.png:talk.0"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dialog/wakeUp/3",
+    "value": [
+      "The oxygen levels of Earth's remnants had been reaching critical levels right before our escape.",
+      "/ai/portraits/nostosportrait.png:talk.0"
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dialog/wakeUp/4",
+    "value": [
+      "The ship's systems were damaged during the fall of Earth. Our location is currently unknown.",
+      "/ai/portraits/nostosportrait.png:talk.1"
+    ]
+  }
+]

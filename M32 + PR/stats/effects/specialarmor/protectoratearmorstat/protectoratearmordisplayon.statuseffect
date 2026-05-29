@@ -1,0 +1,10 @@
+{
+  "name" : "protectoratearmordisplayon",
+  "effectConfig" : {},
+  "defaultDuration" : 0.2,
+
+  "scripts" : [],
+
+  "label" : "Medicine Injector Online",
+  "icon" : "/interface/statuses/absorb.png"
+}

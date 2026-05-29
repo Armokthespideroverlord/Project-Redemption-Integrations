@@ -1,0 +1,14 @@
+{
+  "input" : [
+{ "item" : "starforge-infusedscrap", "count" : 1 },
+    { "item" : "starforge-brimsteel", "count" : 1 },
+	{ "item" : "starforge-impervium", "count" : 1},
+	{ "item" : "essence", "count" : 20}
+  ],
+  "output" : {
+    "item" : "starforge-protectium",
+    "count" : 1
+  },
+  "groups" : [ "starforge-starforge", "ingredients" ],
+  "duration" : 0
+}

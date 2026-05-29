@@ -1,0 +1,9 @@
+{
+  "name" : "protectoratearmoroff",
+  "effectConfig" : {},
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "protectoratearmoroff.lua"
+  ]
+}

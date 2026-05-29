@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/inputsToOutputs/platinumore",
+    "value": "platinumbar"
+  },
+{
+    "op": "add",
+    "path": "/inputsToOutputs/r-imperviumore",
+    "value": "r_imperviumalloy"
+  },
+  {
+    "op": "add",
+    "path": "/bonusOutputs/platinumore",
+    "value": {
+      "ff_silicon": 26,
+      "fu_carbondioxide": 30
+    }
+  },
+  {
+    "op": "add",
+    "path": "/bonusOutputs/r-imperviumore",
+    "value": {
+      "fu_carbonpure": 30
+    }
+  }
+]

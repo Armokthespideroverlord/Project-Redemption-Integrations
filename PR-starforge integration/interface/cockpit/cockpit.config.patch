@@ -1,0 +1,13 @@
+[
+[
+    {"op": "test", "path": "/displayDungeons"},
+	  {"op": "add", "path": "/displayDungeons/starforge-protectoratelab", "value": {
+      "ps_icon": "/items/generic/quest/staffcomponent/staffcomponent.png",
+      "ps_name": "Derelict Protectorate Lab",
+      "description": "Abandoned Protectorate outpost detected. Scans indicate unauthorized Human lifesigns.",
+      "icon": "/interface/cockpit/dungeons/protectoratelabicon.png"
+      }
+	  }
+  ]
+
+]

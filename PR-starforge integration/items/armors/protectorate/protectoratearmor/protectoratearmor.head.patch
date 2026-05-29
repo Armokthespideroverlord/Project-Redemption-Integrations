@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Essential"
+  },
+{
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#008CD9;Protector's Helm^white;"
+  },
+{
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup",
+    "value": [
+      "starforge-exaltedprotectoratearmorhead"
+    ]
+  }
+]

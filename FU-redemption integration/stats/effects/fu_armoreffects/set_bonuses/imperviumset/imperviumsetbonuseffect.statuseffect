@@ -1,0 +1,10 @@
+{
+  "name" : "imperviumsetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "imperviumsetbonuseffect.lua"
+  ],
+  "scriptDelta": 60
+}
+

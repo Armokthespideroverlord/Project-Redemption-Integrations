@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/redemptionlostandfound/0/1/-",
+    "value": {
+      "item": {
+        "name": "aegisaltpistol2"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/redemptionlostandfound/0/1/-",
+    "value": {
+      "item": {
+        "name": "pandorasboxprotectorateshield"
+      }
+    }
+  }
+]

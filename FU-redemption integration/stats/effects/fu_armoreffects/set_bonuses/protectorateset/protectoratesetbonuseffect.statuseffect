@@ -1,0 +1,10 @@
+{
+  "name" : "protectoratesetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "protectoratesetbonuseffect.lua"
+  ],
+  "scriptDelta": 60
+}
+

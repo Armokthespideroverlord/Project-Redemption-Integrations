@@ -1,0 +1,77 @@
+{
+  "itemName" : "starforge-exaltedprotectoratearmorhead",
+  "price" : 5760,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "headarmour",
+  "description" : "\"The Terrene Protectorate may be gone, but it has not been forgotten.\"",
+  "shortdescription" : "^#008CD9;Protector's Helm^reset; ^#FFE998;^reset;",
+  "tooltipKind" : "starforge-exalted",
+
+"inventoryIcon" : "/items/armors/exalted/eprotectoratearmor/icons.png:head",
+  "itemBackground" : "/interface/inventory/starforge-exalted.png",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+ "statusEffects" : [
+	"sphereeffect", "protectorateheadlamp"
+  ],
+
+  "level" : 8,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier8armour" ],
+
+  "colorOptions" : [
+    // SKY BLUE
+    { "ffca8a" : "7DB8D6", "e0975c" : "5588AB", "a85636" : "325A81", "6f2919" : "1C3553" },
+    // BLACK
+    { "ffca8a" : "383649", "e0975c" : "201F2A", "a85636" : "131219", "6f2919" : "0D0D0D" },
+    // GREY
+    { "ffca8a" : "9da8af", "e0975c" : "676f83", "a85636" : "3d3d51", "6f2919" : "24232f" },
+    // WHITE
+    { "ffca8a" : "E6E6E6", "e0975c" : "B6B6B6", "a85636" : "7B7B7B", "6f2919" : "4C4C4C" },
+    // RED
+    { "ffca8a" : "e5b699", "e0975c" : "ea6a56", "a85636" : "d31f34", "6f2919" : "842138" },
+    // ORANGE
+    { "ffca8a" : "e7c474", "e0975c" : "c88b28", "a85636" : "8d581c", "6f2919" : "663b14" },
+    // YELLOW
+    { "ffca8a" : "FFF4DB", "e0975c" : "CCBC9B", "a85636" : "B5A073", "6f2919" : "7F7051" },
+    // GREEN
+    { "ffca8a" : "758468", "e0975c" : "4E654B", "a85636" : "374729", "6f2919" : "1A241B" },
+    // BLUE
+    { "ffca8a" : "8DB5B3", "e0975c" : "4E7274", "a85636" : "203F47", "6f2919" : "0B1D21" },
+    // PURPLE
+    { "ffca8a" : "69729E", "e0975c" : "414662", "a85636" : "2D3041", "6f2919" : "202232" },
+    // PINK
+    { "ffca8a" : "A75B79", "e0975c" : "9A2E50", "a85636" : "531043", "6f2919" : "2F122E" },
+    // BROWN
+    { "ffca8a" : "E1C476", "e0975c" : "C18046", "a85636" : "873F35", "6f2919" : "481A27", "e7c474" : "fbdf71", "c88b28" : "d9b035", "8d581c" : "6b5509", "663b14" : "664601" }
+  ],
+  
+  "pickupQuestTemplates" : [ "spherehack" ],
+"builder" : "/items/buildscripts/starforge-buildexaltedarmour.lua"
+}

@@ -1,0 +1,38 @@
+[
+[{
+		"op" : "test",
+		"path" : "/groups/0",
+		"value" : "craftinganvil3"
+	},
+{
+		"op" : "remove",
+		"path" : "/groups/0"
+	}],
+[{
+		"op" : "test",
+		"path" : "/groups/1",
+		"value" : "armours"
+	},
+{
+		"op" : "remove",
+		"path" : "/groups/1"
+	}],
+[{
+		"op" : "test",
+		"path" : "/groups/2",
+		"value" : "all"
+	},
+{
+		"op" : "remove",
+		"path" : "/groups/2"
+	}],
+[{
+		"op" : "test",
+		"path" : "/groups/3",
+		"value" : "armory3"
+	},
+{
+		"op" : "remove",
+		"path" : "/groups/3"
+	}]
+]

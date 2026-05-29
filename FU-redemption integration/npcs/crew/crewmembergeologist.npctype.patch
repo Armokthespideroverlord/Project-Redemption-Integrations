@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/crew/interactData/items/-",
+    "value": {
+      "item": "platinumore"
+    }
+  }
+]

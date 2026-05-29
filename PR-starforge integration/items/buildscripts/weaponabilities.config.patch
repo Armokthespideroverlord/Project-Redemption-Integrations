@@ -1,0 +1,15 @@
+[
+
+  {
+    "op": "add",
+    "path": "/r-overload",
+    "value": "/items/active/weapons/staff/abilities/effectzone/r-overload.weaponability"
+},
+
+{
+    "op": "add",
+    "path": "/r-plasmaorbsummon",
+    "value": "/items/active/weapons/staff/abilities/controlprojectile/r-plasmaorbsummon.weaponability"
+}
+  
+]

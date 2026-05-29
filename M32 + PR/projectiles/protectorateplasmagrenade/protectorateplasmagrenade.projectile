@@ -1,0 +1,91 @@
+{
+  "projectileName" : "protectorateplasmagrenade",
+  "image" : "protectorateplasmagrenade.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [107, 49, 255],
+  "pointLight" : true,
+  "bounces" : 10,
+  "timeToLive" : 5,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/magnorb_impact1.ogg",
+        "/sfx/projectiles/magnorb_impact2.ogg",
+        "/sfx/projectiles/magnorb_impact3.ogg"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "smallelectriccloud",
+      "inheritDamageFactor" : 0,
+      "speed" : 0
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/protectorateplasmaexplosions/protectorateplasmaexplosion3.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "protectorateplasmagrenadedepleted"
+    },
+    {
+      "action" : "projectile",
+      "type" : "largeelectriccloud",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 10,
+      "angle" : 0,
+      "speed" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "largeelectriccloud",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 10,
+      "angle" : 60,
+      "speed" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "largeelectriccloud",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 10,
+      "angle" : 120,
+      "speed" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "largeelectriccloud",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 10,
+      "angle" : 180,
+      "speed" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "largeelectriccloud",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 10,
+      "angle" : 240,
+      "speed" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "largeelectriccloud",
+      "inheritDamageFactor" : 0,
+      "fuzzAngle" : 10,
+      "angle" : 300,
+      "speed" : 55
+    }
+  ],
+  "emitters" : [ "rocketsmoke" ],
+  "power" : 20.0,
+  "speed" : 40.0,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

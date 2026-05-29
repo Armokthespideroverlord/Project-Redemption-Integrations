@@ -1,0 +1,14 @@
+{
+  "input" : [
+    { "item" : "starforge-exaltingcharge", "count" : 1},
+    { "item" : "protectoratearmorlegs", "count" : 1 },
+	{ "item" : "starforge-terreneweave", "count" : 2},
+	{ "item" : "starforge-protectium", "count" : 2}
+  ],
+  "output" : {
+    "item" : "starforge-exaltedprotectoratearmorlegs",
+    "count" : 1
+  },
+  "groups" : [ "starforge-weaponshop", "armor" ],
+  "duration" : 0
+}

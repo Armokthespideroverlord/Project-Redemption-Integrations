@@ -1,0 +1,7 @@
+[
+  {
+    "op": "replace",
+    "path": "/description",
+    "value": "Said to be unbreakable, this reinforced Impervium alloy needs the heat of a star to smelt. "
+  }
+]

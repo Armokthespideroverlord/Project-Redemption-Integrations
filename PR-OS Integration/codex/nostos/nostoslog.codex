@@ -1,0 +1,19 @@
+{
+	"id" : "nr_nostoslog",
+	"title" : "The Ruin of a World",
+	"description" : "The final log of a NostOS Protector, made after the fall of Earth.",
+	"icon" : "nostoslog.png",
+	"contentPages" : [
+    "It all happened so fast, too fast. I had a bad feeling about today as soon as I heard the reports of a minor earthquake, the fact that it happened where there was minimal geological activity was unnerving in particular. Then the portals opened and all hell broke loose. Seeing the massive tentacles and swarms of hideous spawn accompanying them spill out reminded me all too much of some disturbing stories shared by some of my kin. And the screams, all those people...",
+
+"Then, after a much too long moment, the attack would end just as suddenly as it began. It didn't seem to be intentional, as those horrific tentacles were all busy lodging themselves into buildings to rip them apart when the portals closed, severing them, I briefly heard the deafening, pained shriek of something from the other side... What was most peculiar however was how my Cosmometer suddenly spiked in the positive direction during this, perhaps it had to do with whatever suddenly shuttered the portals?",
+
+"The destruction and devastation that's been left behind is impossible to properly convey through words, all I can say is that the Earth is gone now, nothing but rubble and dead tentacles in space, there's scarcely anything left really. If I'm going to make it out alive here, I'm going to need to hook up the experimental SAIL unit to the prototype ship I was developing with my colleagues, provided that it hasn't suffered critical damage. I don't think any of my colleagues managed to survive...",
+
+"Unfortunately for me, time's running out. Emergency lockdown is about to activate and I can hear some remaining creatures outside the door. I don't even know if the ship is still functional, but at least my hidden lab is likely to still be intact... In the event I don't make it out of here I'm leaving this log behind, the galaxy needs to be warned somehow of the ruin that befell Earth."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

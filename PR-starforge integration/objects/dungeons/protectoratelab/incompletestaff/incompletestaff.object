@@ -1,0 +1,43 @@
+{
+  "objectName" : "starforge-incompletestaff",
+  "rarity" : "essential",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 10,
+  "description" : "An unfinished staff weapon of Protectorate design.",
+  "shortdescription" : "Incomplete Staff",
+  "race" : "hylotl",
+
+  "floranDescription" : "Floran sssad to find weapon unfinished.",
+  "glitchDescription" : "Concerned. The Protectorate must have been quite frightened to resort to the construction of weaponry. Fortunately this one is incomplete.",
+  "novakidDescription" : "Mighty odd to see a weapon like this.",
+  "humanDescription" : "Man, seeing this weapon both unfinished and related to the Protectorate makes me feel sad.",
+  "hylotlDescription" : "A weapon of war is unbecoming of a peaceful organization such as the Protectorate. Perhaps it is best this weapon remain unfinished.",
+  "avianDescription" : "It's unnverving to see the wings of the Protectorate on a weapon to say the least. Thankfully it doesn't look to have seen any use.", 
+  "apexDescription" : "It is strange seeing a weapon of Protectorate design, but sometimes peace can only be bought by force.",
+
+  "inventoryIcon" : "incompletestafficon.png",
+  "orientations" : [
+    {
+      "dualImage" : "incompletestaff.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "scripts" : [
+    "/objects/scripts/starforgeinteractpickup.lua"
+  ],
+  "scriptDelta" : 5,
+  
+  "spawnableItem" : "starforge-staffcomponent",
+
+  "animation" : "incompletestaff.animation",
+  "animationParts" : {
+    "object" : "incompletestaff.png"
+  },
+  "animationPosition" : [0, 0]
+  
+}

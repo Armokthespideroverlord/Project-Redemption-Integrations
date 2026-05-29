@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "syntheticmaterial", "count" : 2 },
+    { "item" : "platinumbar", "count" : 3 },
+    { "item" : "durasteelbar", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "r-platinumarmorhead",
+    "count" : 1
+  },
+  "groups" : [ "armory3", "armors", "all" ]
+}

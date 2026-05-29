@@ -1,0 +1,13 @@
+{
+  "name" : "protectoratearmorstims",
+  "effectConfig" : {
+  "healTime" : 15
+  },
+  "defaultDuration" : 0.1,
+
+  "scripts" : [
+    "protectoratearmorstims.lua"
+  ],
+
+  "animationConfig" : "protectoratearmorstims.animation"
+}

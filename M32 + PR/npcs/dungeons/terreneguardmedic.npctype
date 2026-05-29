@@ -1,0 +1,214 @@
+{
+  "type" : "terreneguardmedic",
+  "baseType" : "guard",
+
+
+  "scriptConfig" : {
+  "dialog" : {
+    "converse" : {
+      "default" : {
+        "default" : [
+          "We've been trying to provide aid to other refugees, but there's just so many of them and we don't have any place to resupply...",
+          "There was supposed to be an old Protectorate supply depot a few clicks from here, but we haven't been able to find it. Have you seen it?",
+          "I can treat anything from a bullet wound to an injection injury, but I still can't treat a broken heart.",
+          "Best I can give you is a band-aid, we need to conserve our supplies.",
+          "The locals around here have no access to proper medical facilities, so I helped them out in exchange for a few sacks of dried pearlpeas."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "Floran learned medicine from Greenfinger, sso Floran can sstretch medicine ssuplies further. There'ss many herbss around here.",
+          "Floran iss besst doctor in unit, Greenfinger wass proud.",
+          "Floran sstabss to heal; it hurtss jusst ass much though. That'ss why anessthessia exisstss!",
+          "Floran klutz and ssplilled all the pillss, don't sstep on them!"
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Upset. Why must we do the Protectorate's job for them?",
+          "Complaining. There are far too many malaria pills, and not enough of the medicine that's actually needed.",
+          "Joking. You're not here for a surprise organ donation are you?",
+          "Neutral. I have to sort my paperwork, give me a minute or three..."
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "I specialize in cauterizin', fer obvious reasons.",
+          "They say I don't need gloves, the whole burnin' plasma an' all.",
+          "Learnin' th' insides n' outsides've all different species, outside n' in, it takes a big memory. Luckily I've got one!",
+          "Y'need somethin' pardner?"
+        ]
+      },
+      "nuu" : {
+        "default" : [
+          "The others are honestly afraid of me, they refuse to let me treat them unless absolutely necessary.",
+          "Anesthesia is for little baby men.",
+          "I became a medic because they said my eyesight was too bad to join otherwise. But I have found it is just as fulfilling to put holes in your friends as your enemies, so long as they need it.",
+          "I regret many things, but going into medicine is not one of them.",
+          "Somebody got into my sedative supply... Was it you?"
+        ]
+      },
+      "glutt" : {
+        "default" : [
+          "Nd t' gt m' hnds 'n trnsltr smdy.",
+          "D'y nd ny hlp?",
+          "W'r lw 'n mdcn rght nw..."
+        ]
+      }
+    },
+    "greeting" : {
+      "default" : {
+        "default" : [
+          "We've been trying to provide aid to other refugees, but there's just so many of them and we don't have any place to resupply...",
+          "There was supposed to be an old Protectorate supply depot a few clicks from here, but we haven't been able to find it. Have you seen it?",
+          "I can treat anything from a bullet wound to an injection injury, but I still can't treat a broken heart.",
+          "Best I can give you is a band-aid, we need to conserve our supplies.",
+          "The locals around here have no access to proper medical facilities, so I helped them out in exchange for a few sacks of dried pearlpeas."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "Floran learned medicine from greenfinger, sso Floran can sstretch medicine ssuplies further. There'ss many herbss around here.",
+          "Floran iss besst doctor in unit, Greenfinger wass proud.",
+          "Floran sstabss to heal; it hurtss jusst ass much though. That'ss why anessthessia exisstss!",
+          "Floran klutz and ssplilled all the pillss, don't sstep on them!"
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Upset. Why must we do the Protectorate's job for them?",
+          "Complaining. There are far too many malaria pills, and not enough of the medicine that's actually needed.",
+          "Joking. You're not here for a surprise organ donation are you?",
+          "Neutral. I have to sort my paperwork, give me a minute or three..."
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "I specialize in cauterizin', fer obvious reasons.",
+          "They say I don't need gloves, the whole burnin' plasma an' all.",
+          "Learnin' th' insides n' outsides've all different species, outside n' in, it takes a big memory. Luckily I've got one!",
+          "Y'need somethin' pardner?"
+        ]
+      },
+      "nuu" : {
+        "default" : [
+          "The others are honestly afraid of me, they refuse to let me treat them unless absolutely necessary.",
+          "Anesthesia is for little baby men.",
+          "I became a medic because they said my eyesight was too bad to join otherwise. But I have found it is just as fulfilling to put holes in your friends as your enemies, so long as they need it.",
+          "I regret many things, but going into medicine is not one of them.",
+          "Somebody got into my sedative supply... Was it you?"
+        ]
+      },
+      "glutt" : {
+        "default" : [
+          "Nd t' gt m' hnds 'n trnsltr smdy.",
+          "D'y nd ny hlp?",
+          "W'r lw 'n mdcn rght nw..."
+        ]
+      }
+    }
+  }
+  },
+
+  "items" : {
+  "apex" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "avian" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "floran" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "glitch" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "human" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "hylotl" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "novakid" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "nuu" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "glutt" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [3] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [3] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [3] } } ],
+      "back" : [ { "name" : "medicback", "data" : { "colorIndex" : [3] } } ],
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ]
+  }
+}

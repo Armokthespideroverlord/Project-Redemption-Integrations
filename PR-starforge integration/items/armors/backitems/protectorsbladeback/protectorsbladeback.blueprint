@@ -1,0 +1,11 @@
+{
+  "itemName" : "starforge-protectorsbladeback-recipe",
+  "price" : 3500,
+  "inventoryIcon" : "protectorsbladebackicon.png",
+  "rarity" : "Essential",
+  "category" : "Blueprint",
+  "description" : "A legendary blade sheathed in the tatters of a heroic banner.",
+"recipe":{"parameters":{},"count":1,"name":"starforge-protectorsbladeback"},
+  "shortdescription" : "^#008CD9;Protector's Blade^white;",
+  "tooltipFields" : {"rarityLabel" : "Exalted"}
+}

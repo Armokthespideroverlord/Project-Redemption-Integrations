@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/rewards/0",
+    "value": [
+      [
+        "superrewardbag",
+        1
+      ],
+      [
+        "humanartifactaugment",
+        1
+      ]
+    ]
+  }
+]

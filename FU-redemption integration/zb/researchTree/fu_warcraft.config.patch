@@ -1,0 +1,22 @@
+[
+{
+    "op" : "add",
+    "path" : "/researchTree/fu_warcraft/irongear/unlocks/-",
+    "value" : "brokensidearm"
+  },
+{
+    "op" : "add",
+    "path" : "/researchTree/fu_warcraft/durasteelgear/unlocks/-",
+    "value" : "r-platinumarmorhead"
+  },
+{
+    "op" : "add",
+    "path" : "/researchTree/fu_warcraft/durasteelgear/unlocks/-",
+    "value" : "r-platinumarmorchest"
+  },
+{
+    "op" : "add",
+    "path" : "/researchTree/fu_warcraft/durasteelgear/unlocks/-",
+    "value" : "r-platinumarmorlegs"
+  }
+]

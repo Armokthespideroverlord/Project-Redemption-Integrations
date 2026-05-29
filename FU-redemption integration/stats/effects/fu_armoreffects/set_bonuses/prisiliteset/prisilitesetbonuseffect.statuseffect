@@ -1,0 +1,10 @@
+{
+  "name" : "prisilitesetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "prisilitesetbonuseffect.lua"
+  ],
+  "scriptDelta": 60
+}
+

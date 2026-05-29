@@ -1,0 +1,13 @@
+[
+{"op": "replace",
+"path": "/title",
+"value": "^#008CD9;The Paladin Initiative^reset;"},
+{"op": "replace",
+"path": "/description",
+"value": "A dossier on a top secret Protectorate project. ^orange;Can be traded for blueprints^reset;."},
+{
+"op": "replace",
+"path": "/itemConfig/rarity",
+"value": "Essential"
+}
+]

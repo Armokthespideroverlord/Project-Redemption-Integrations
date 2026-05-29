@@ -1,0 +1,102 @@
+{
+  "itemName": "starforge-protectorsstaff",
+  "price": 3000,
+  "maxStack": 1,
+  "level": 7,
+  "rarity": "Essential",
+  "description": "A powerful staff based on unfinished Protectorate designs.",
+  "shortdescription": "^#008CD9;Protector's Staff^reset;",
+  "category": "staff",
+  "twoHanded": true,
+  "itemTags": [
+    "weapon",
+    "staff"
+  ],
+  "tooltipKind": "base",
+  "animation": "protectorsstaff.animation",
+  "animationParts": {
+    "staff": "protectorsstaff.png",
+    "stone": "stone.png",
+    "chargeEffect": "staffglow.png"
+  },
+  "animationCustom" : {
+    "lights" : {
+    },
+
+    "sounds" : {
+      "physicalactivate" : ["/sfx/npc/boss/cultistboss_recharge.ogg"],
+      "zoneactivate" : ["/sfx/melee/giantsword_charge_full.ogg"]
+    }
+  },
+  "inventoryIcon": "protectorsstafficon.png",
+  "scripts": [
+    "/items/active/weapons/staff/staff.lua"
+  ],
+  "stances": {
+    "idle": {
+      "armRotation": -90,
+      "weaponRotation": 0,
+      "twoHanded": false,
+      "allowRotate": false,
+      "allowFlip": true
+    },
+    "charge": {
+      "duration": 1.4,
+      "armRotation": 20,
+      "weaponRotation": -20,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": true
+    },
+    "charged": {
+      "armRotation": 20,
+      "weaponRotation": -20,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": true
+    },
+    "discharge": {
+      "duration": 0.5,
+      "armRotation": -10,
+      "weaponRotation": -50,
+      "twoHanded": true,
+      "allowRotate": true,
+      "allowFlip": true
+    },
+    "cooldown": {
+      "duration": 0.5,
+      "armRotation": -45,
+      "weaponRotation": 0,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": true
+    }
+  },
+  "elementalType": "physical",
+  "primaryAbilityType" : "r-plasmaorbsummon",
+  "primaryAbility" : {
+
+  },
+  "altAbilityType": "r-overload",
+  "altAbility": {
+"projectileParameters": {
+          "actionOnReap": [
+            {
+              "action": "projectile",
+              "type": "r-overload",
+              //"inheritDamageFactor": 0.25,
+              "config": {
+                
+              }
+            },
+            {
+              "action": "sound",
+              "options": [
+                "/sfx/gun/plasma_shotgun1.ogg"
+              ]
+            }
+          ]
+        }},
+
+  "builder": "/items/buildscripts/buildunrandweapon.lua"
+}

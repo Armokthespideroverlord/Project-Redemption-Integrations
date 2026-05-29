@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Essential"
+  },
+{
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#b4f5c3;Protector's Handgun^reset;"
+  }
+]

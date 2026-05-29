@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "paladincodex-codex", "count" : 1}
+  ],
+  "output" : {
+    "item" : "starforge-protectorsbladeback-recipe",
+    "count" : 1
+  },
+  "groups" : [ "starforge-loreshop", "blueprint" ],
+  "duration" : 2
+}
+

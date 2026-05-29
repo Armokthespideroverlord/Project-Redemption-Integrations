@@ -1,0 +1,15 @@
+{
+  "name" : "guardianarmor",
+  "effectConfig" : {
+    "inputA" : "guardianarmorhead",
+    "inputB" : "guardianarmorlegs",
+    "output" : "protectoratearmorstat"
+  },
+
+  "scripts" : [
+    "requirefullsuit.lua"
+  ],
+  "scriptDelta" : 1,
+
+  "defaultDuration" : 0.1
+}

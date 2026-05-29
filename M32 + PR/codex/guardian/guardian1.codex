@@ -1,0 +1,16 @@
+{
+"id" : "guardian1",
+"title" : "About The Terrene Guardians",
+"description" : "Terrene Guardian official documentation.",
+"icon" : "guardiancover1.png",
+"contentPages" : [
+"The Terrene Guardians have stood proudly for over millennia, preserving peace and unity amongst the people of Earth. We exist to serve as a bulwark for the citizens of the Electorate against those who wish to do them harm and endeavor to provide relief during Earth's natural crises.
+
+We are the Terrene Guardians, may we stand forever strong."
+
+],
+"itemConfig" : {
+"rarity" : "common",
+"price" : 25
+}
+}

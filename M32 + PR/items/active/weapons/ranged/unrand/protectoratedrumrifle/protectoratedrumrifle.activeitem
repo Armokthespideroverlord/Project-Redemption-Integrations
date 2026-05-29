@@ -1,0 +1,83 @@
+{
+  "itemName" : "protectoratedrumrifle",
+  "price" : 900,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A submachine gun made for Terrene Guardians. The oversized circular canister makes it a bit unwieldly.",
+  "shortdescription" : "GSMG-Atlantic",
+  "tooltipKind" : "base",
+  "category" : "uniqueWeapon",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","assaultrifle"],
+  "level" : 4,
+
+  "inventoryIcon" : "protectoratedrumrifle.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "protectoratedrumrifle.png",
+    "barrel" : "",
+    "muzzleFlash" : "muzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_mp1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.4, -0.3],
+  "muzzleOffset" : [1.6, 0.65],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.07,
+    "baseDps" : 15,
+    "energyUsage" : 25,
+    "inaccuracy" : 0.07,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "protectorateplasmabulletsmall",
+    "projectileParameters" : {
+      "knockback" : 5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.11,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

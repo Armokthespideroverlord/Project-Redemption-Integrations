@@ -1,0 +1,87 @@
+﻿{
+  "itemName" : "nr_neotaser",
+  "price" : 1080,
+  "fixedLevel" : false,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Standard issue taser for Peacekeepers operating on Earth.",
+  "shortdescription" : "Tazer",
+  "tooltipKind" : "base",
+  "category" : "dagger",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","dagger","upgradeableWeapon"],
+
+  "inventoryIcon" : "neotaser.png",
+
+  "animation" : "/items/active/weapons/melee/neotonfa/r-dagger.animation",
+  "animationParts" : {
+    "handle": "",
+"bladefullbright" : "neotaserfullbright.png"
+,
+    "blade" : "neotaser.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/tesla_shock_kill.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "aimOffset" : 0.0,
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/meleeslash.lua"],
+    "class" : "MeleeSlash",
+
+    "fireTime" : 0.5,
+    "baseDps" : 9.0,
+    "damageConfig" : {
+      "damageSourceKind" : "dagger",
+      "statusEffects" : [ "electrified", "paralysis" ],
+      "knockbackMode" : "aim",
+      "knockback" : 0,
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : -10,
+        "weaponOffset" : [0, 0.60],
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.05,
+        "armRotation" : -20,
+        "weaponRotation" : -20,
+        "weaponOffset" : [0, 0.60],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : -135,
+        "weaponRotation" : 40,
+        "weaponOffset" : [0, 0.60],
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/melee/tesla_shock_kill.ogg" ],
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+"upgradeParameters" : {
+    "inventoryIcon" : "neotaser_l6.png",
+    "animationParts" : {
+"bladefullbright" : "neotaserfullbright_l6.png",
+      "blade" : "neotaser_l6.png"
+    },
+    "shortdescription" : "Tazer ^yellow;^reset;"
+  }
+}

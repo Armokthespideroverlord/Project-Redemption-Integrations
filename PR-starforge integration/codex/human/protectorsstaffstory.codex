@@ -1,0 +1,20 @@
+{
+  "id" : "protectorsstaffstory",
+  "species" : "human",
+  "title" : "USCM Log PL-24",
+  "description" : "The log of a USCM marine regarding a Protectorate installation.",
+  "icon" : "protectorsstaffcover.png",
+  "contentPages" : [
+  "We were making a scouting run on this planet when the news came of HQ's folding. Rather than turn in and lay down our arms like the cowards back on the ship, we decided to stay planetside, leaving us stranded here. Guess that's the cost of being loyal to the cause, unlike the greedy bastards who drove it to the ground. In any case our priority was to find shelter, probably some ruins or something of little interest.",
+
+"We didn't expect to find some abandoned Protectorate installation on this rock, typically those fools make use of civilian infrastructure whenever possible, so a custom made lab certainly raises some questions. It looks like whoever was assigned to this installation left in a hurry, as plenty of resources had been left over alongside some partially deleted logs.",
+
+"What makes this lab really weird is what it was being used to develop, what little can be told from the log fragments makes mention of something called \"The Paladin Initiative\", which given the cancellation orders it just got, might have something to do with us, the USCM. It looks like this lab was helping to develop tech for the initiative, including some unfinished device being held in the lab.",
+
+"Shame we didn't bring any engineers with us on the scouting run, else we'd have a clue as to how to complete this device, no doubt a weapon of some sort, although knowing the Protectorate they probably have some cover story for it as some \"peaceful tool\". In any case this lab will work well as a forward operating base, we can only hope there's more of us out there loyal to the cause of the USCM."
+ ],
+    "itemConfig" : {
+    "rarity" : "legendary",
+    "price" : 1250
+  }
+}

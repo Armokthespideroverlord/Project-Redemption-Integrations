@@ -1,0 +1,12 @@
+{
+  "name" : "starforge-protectorimmunity",
+  "effectConfig" : {"protection" : 4},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "starforge-protectorblock.lua"
+  ],
+
+  "label" : "Protector's Tenacity",
+  "icon" : "/interface/statuses/starforge-protectorimmunity.png"
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 4 },
+    { "item" : "refinedferozium", "count" : 4 },
+    { "item" : "refinedviolium", "count" : 4 },
+    { "item" : "nr_nostosbar", "count" : 4 },
+    { "item" : "nr_nostosrubber", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "camolegs", "count" : 1 },
+  "groups" : [ "craftingaccelerator", "craftingmanipulator", "craftingseparator", "armours", "all" ]
+}

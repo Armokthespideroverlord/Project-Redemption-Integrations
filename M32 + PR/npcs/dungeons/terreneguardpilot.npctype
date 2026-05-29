@@ -1,0 +1,186 @@
+{
+  "type" : "terreneguardpilot",
+  "baseType" : "guard",
+
+
+  "scriptConfig" : {
+  "dialog" : {
+    "converse" : {
+      "default" : {
+        "default" : [
+          "I think this is my best crash landing so far!",
+          "I had to do some fancy flying to get this cumbersome ship off earth; it almost got snatched by those tentacles twice!",
+          "We've been out of fuel for a while... It's too bad these ships don't use ion thrusters, or by now we'd be away from here relaxing on a white-sand beach.",
+          "I'd dreamed of flight ever since I was young, but now that I'm a pilot I realize it's more mundane than I thought.",
+          "We got separated from the fleet when scavenging for repair materials. I think the mothership left without us...",
+          "I swear, piloting these ships makes one superstitious...",
+          "The Guardian freighter we launched from left without us, and our little shuttle has no FTL drive..."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "Floran iss unusssually good at ressissting the urge to ssslam into thingsss!",
+          "Floran likess the blinky buttonss in the cockpit, makess Floran feel in control.",
+          "Floran thought flying wass more interessting before learning how. Now Floran iss chronically bored.",
+          "Floran iss well known for Sstuntss! Floran'ss crew have gotten ussed to it."
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Statement. I am a pilot for the Terrene Guardians.",
+          "Proud. I have been told I am especially good with the yoke.",
+          "Grumpy. The captain won't let me rename the ship to 'Dragon 014'.",
+          "Unstable. The others all say I have a screw loose! It's all in jest though!"
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "Flyin's wild, lemme tell ya! They keep tellin' me to slow down, but I pretend I can't hear 'em!",
+          "Th' crew's count'n on me to fly 'er to th' best of my ability, so that's what I do.",
+          "She's an ol' bird, an' a bit stubborn but she's irreplaceable, I tell ya, an' lucky too!",
+          "This ship woulda' been real useful back'n my hometown. Shame I forgot where t'is."
+        ]
+      }
+    },
+    "greeting" : {
+      "default" : {
+        "default" : [
+          "I think this is my best crash landing so far!",
+          "I had to do some fancy flying to get this cumbersome ship off earth; it almost got snatched by those tentacles twice!",
+          "We've been out of fuel for a while... It's too bad these ships don't use ion thrusters, or by now we'd be away from here relaxing on a white-sand beach.",
+          "I'd dreamed of flight ever since I was young, but now that I'm a pilot I realize it's more mundane than I thought.",
+          "We got separated from the fleet when scavenging for repair materials. I think the mothership left without us...",
+          "I swear, piloting these ships makes one superstitious...",
+          "The Guardian freighter we launched from left without us, and our little shuttle has no FTL drive..."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "Floran iss unusssually good at ressissting the urge to ssslam into thingsss!",
+          "Floran likess the blinky buttonss in the cockpit, makess Floran feel in control.",
+          "Floran thought flying wass more interessting before learning how. Now Floran iss chronically bored.",
+          "Floran iss well known for Sstuntss! Floran'ss crew have gotten ussed to it."
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Statement. I am a pilot for the Terrene Guardians.",
+          "Proud. I have been told I am especially good with the yoke.",
+          "Grumpy. The captain won't let me rename the ship to 'Dragon 014'.",
+          "Unstable. The others all say I have a screw loose! It's all in jest though!"
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "Flyin's wild, lemme tell ya! They keep tellin' me to slow down, but I pretend I can't hear 'em!",
+          "Th' crew's count'n on me to fly 'er to th' best of my ability, so that's what I do.",
+          "She's an ol' bird, an' a bit stubborn but she's irreplaceable, I tell ya, an' lucky too!",
+          "This ship woulda' been real useful back'n my hometown. Shame I forgot where t'is."
+        ]
+      }
+    }
+  }
+  },
+
+  "items" : {
+  "apex" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "avian" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "floran" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "glitch" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "human" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "hylotl" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "novakid" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "nuu" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ],
+  "glutt" : [
+    [0, [
+      {
+      "head" : [ { "name" : "humantier3head", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "humantier3chest", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "humantier3pants", "data" : { "colorIndex" : [0] } } ],
+
+      "sheathedprimary" : [ "protectoratedrumrifle" ]
+      }
+    ] ]
+  ]
+  }
+}

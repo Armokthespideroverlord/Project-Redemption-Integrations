@@ -1,0 +1,81 @@
+[
+{ "op" : "add",
+"path" : "/metadata/anchor/-",
+"value" : "terreneguardpost1"
+},
+{ "op" : "add",
+"path" : "/parts/-",
+"value" : {
+  "name" : "terreneguardpost1",
+  "rules" : [
+    [ "maxSpawnCount", [1] ]
+  ],
+  "def" : [ "tmx", "terreneguardpost1.json" ],
+  "chance" : 0.5
+}
+},
+
+{ "op" : "add",
+"path" : "/metadata/anchor/-",
+"value" : "terreneguardpost2"
+},
+{ "op" : "add",
+"path" : "/parts/-",
+"value" : {
+  "name" : "terreneguardpost2",
+  "rules" : [
+    [ "maxSpawnCount", [1] ]
+  ],
+  "def" : [ "tmx", "terreneguardpost2.json" ],
+  "chance" : 0.5
+}
+},
+
+{ "op" : "add",
+"path" : "/metadata/anchor/-",
+"value" : "terreneguardpost3"
+},
+{ "op" : "add",
+"path" : "/parts/-",
+"value" : {
+  "name" : "terreneguardpost3",
+  "rules" : [
+    [ "maxSpawnCount", [1] ]
+  ],
+  "def" : [ "tmx", "terreneguardpost3.json" ],
+  "chance" : 0.5
+}
+},
+
+{ "op" : "add",
+"path" : "/metadata/anchor/-",
+"value" : "terreneguardpost4"
+},
+{ "op" : "add",
+"path" : "/parts/-",
+"value" : {
+  "name" : "terreneguardpost4",
+  "rules" : [
+    [ "maxSpawnCount", [1] ]
+  ],
+  "def" : [ "tmx", "terreneguardpost4.json" ],
+  "chance" : 0.5
+}
+},
+
+{ "op" : "add",
+"path" : "/metadata/anchor/-",
+"value" : "terreneguardpost5"
+},
+{ "op" : "add",
+"path" : "/parts/-",
+"value" : {
+  "name" : "terreneguardpost5",
+  "rules" : [
+    [ "maxSpawnCount", [1] ]
+  ],
+  "def" : [ "tmx", "terreneguardpost5.json" ],
+  "chance" : 0.5
+}
+}
+]

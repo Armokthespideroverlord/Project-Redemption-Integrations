@@ -1,0 +1,17 @@
+{
+  "projectileName" : "protectorateplasmaexplosion3",
+  "image" : "protectorateplasmaexplosion3.png",
+  "animationCycle" : 0.21,
+  "frameNumber" : 4,
+  "speed" : 0,
+  "power" : 5,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "animationLoops" : false,
+  "emitters" : [ "electricplasma", "defaultblue" ],
+  "statusEffects" : [ "sillylightningeffect", "electrified" ],
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "electricplasma",
+  "knockback" : 30,
+  "lightColor" : [216, 210, 255]
+}

@@ -1,0 +1,12 @@
+[
+{
+  "op" : "replace",
+  "path" : "/input/0/item",
+  "value" : "r_imperviumalloy"
+},
+{
+  "op" : "add",
+  "path" : "/groups/-",
+  "value" : "craftingconstructor"
+}
+]

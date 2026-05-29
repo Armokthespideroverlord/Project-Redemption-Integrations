@@ -1,0 +1,35 @@
+{
+  "objectName" : "miniuscmliberated",
+  "colonyTags" : ["human","humanbunker"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 80,
+
+  "description" : "The Terrene Guardian logo has been painted over the old USCM one.",
+  "shortdescription" : "Former USCM Sign",
+  "race" : "human",
+
+  "apexDescription" : "I'm not surprised, knowing how the USCM were caught working with the Ministry.",
+  "avianDescription" : "It would seem that this no longer belongs to the USCM.",
+  "floranDescription" : "Guardiansss ssign.",
+  "glitchDescription" : "Confused. Is not the Terrene Guardian logo supposed to be red?",
+  "humanDescription" : "Oh how the tables have turned...",
+  "hylotlDescription" : "If I were to rate this mural, it would be a 3/10.",
+  "novakidDescription" : "I ain't sure what's underneath, but it looks t' me like a 'Terrene Guardian' logo now.",
+  "nuuDescription" : "Waste not want not still applies to abandoned military installations, it seems.",
+  "gluttDescription" : "Grfft 'n bhlf 'f th Trrn Grdns.",
+
+  "inventoryIcon" : "miniuscmicon.png",
+  "orientations" : [
+    {
+      "image" : "miniuscmliberated.png:<color>",
+      "imagePosition" : [-16, -8],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

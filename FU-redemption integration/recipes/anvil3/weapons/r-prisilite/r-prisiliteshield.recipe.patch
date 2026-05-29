@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/groups/1",
+    "value": "shield"
+  },
+  {
+    "op": "add",
+    "path": "/groups/-",
+    "value": "armory3"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/8/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/9/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  },
+  {
+    "op" : "replace",
+    "path" : "/layers/3/objects/10/properties",
+    "value" : [
+      {
+        "name":"npc",
+        "type":"string",
+        "value":"human"
+      },
+      {
+        "name":"typeName",
+        "type":"string",
+        "value":"corporatemarine"
+      }
+    ]
+  }
+]

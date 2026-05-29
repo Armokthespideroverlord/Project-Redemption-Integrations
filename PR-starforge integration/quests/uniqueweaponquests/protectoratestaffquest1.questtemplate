@@ -1,0 +1,30 @@
+{
+  "id" : "protectoratestaffquest1",
+  "title" : "^orange;Remnants I^reset;",
+  "text" : "While exploring I discovered an abandoned Protectorate lab occupied by USCM remnant forces. It appeared to be some R&D facility for an experimental staff weapon of some kind, but only a piece of it could be salvaged. Given the USCM's involvement, perhaps I should speak with ^orange;Creighton^reset; at the ^green;Thalasso Outpost^reset;.",
+  "completionText" : "Ya say this came from a Protectorate lab full of USCM remnant grunts? An odd place for my ex-comrades to be moseyin' around... This clearly isn't USCM tech, much too well made, but I bet Rondin will know what to do with this.",
+  "moneyRange" : [2500, 2500],
+  "rewards" : [
+    [ [ "starforge-thalassocache", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+     "portraits" : {
+      "questStarted" : "player",
+      "questComplete" : "questReceiver"
+	 },
+	"followUp" : "protectoratestaffquest2",
+    "requireTurnIn" : true,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "starforge-staffcomponent",
+        "count" : 1,
+        "consume" : false
+      }
+    ],
+	"turnInDescription" : "Bring the ^orange;Staff Component^reset; to ^green;Creighton^reset;."
+  }
+}

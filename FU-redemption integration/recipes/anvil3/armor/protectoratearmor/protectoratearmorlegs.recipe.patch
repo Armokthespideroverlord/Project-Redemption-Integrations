@@ -1,0 +1,36 @@
+[
+  {
+    "op": "add",
+    "path": "/input/-",
+    "value": {
+      "item": "nuclearcore",
+      "count": 1
+    }
+  },
+  {
+    "op": "add",
+    "path": "/input/-",
+    "value": {
+      "item": "funanofibre",
+      "count": 2
+    }
+  },
+  {
+    "op": "add",
+    "path": "/input/-",
+    "value": {
+      "item": "aetheriumalloy",
+      "count": 4
+    }
+  },
+{
+		"op" : "add",
+		"path" : "/groups/-",
+		"value" : "armory3"
+	},
+	{
+		"op" : "add",
+		"path" : "/groups/-",
+		"value" : "armors"
+	}
+]

@@ -1,0 +1,78 @@
+{
+  "itemName" : "protectoratefieldarmourchest",
+  "price" : 4000,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "chestwear",
+  "description" : "Armor with an in-built chemical injector, activating when the wearer's ^green;energy^white; is ^orange;depleted^white;. ^#93989a;*The full set must be worn for it to function.^white;",
+  "shortdescription" : "Guardian Shock Plate",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 3,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "statusEffects" : ["guardianarmor"],
+
+  "itemTags" : [ "tier3armour" ],
+
+  "colorOptions" : [
+  // Terrene guard color
+  { "7db8d6" : "c65445", "5588ab" : "95311f", "325a81" : "6e2517", "1c3553" : "4a180f" },
+  // BLACK
+  { "7db8d6" : "838383", "5588ab" : "555555", "325a81" : "383838", "1c3553" : "151515" },
+  // GREY
+  { "7db8d6" : "b5b5b5", "5588ab" : "808080", "325a81" : "555555", "1c3553" : "303030" },
+  // WHITE
+  { "7db8d6" : "e6e6e6", "5588ab" : "b6b6b6", "325a81" : "7b7b7b", "1c3553" : "373737" },
+  // DEEP CINNABAR
+  { "7db8d6" : "95311f", "5588ab" : "6e2517", "325a81" : "4a180f", "1c3553" : "260d08" },
+  // PROTECTORATE ORANGE
+  { "7db8d6" : "fcf132", "5588ab" : "ffbf47", "325a81" : "ea933d", "1c3553" : "89521c", "fcf132" : "ffeed4", "ffbf47" : "b0a696", "ea933d" : "656154", "89521c" : "47413b" },
+  // LIMEY STONE
+  { "7db8d6" : "faecbf", "5588ab" : "c4ae89", "325a81" : "8e7b61", "1c3553" : "523f45" },
+  // OLIVE
+  { "7db8d6" : "c1c693", "5588ab" : "91956c", "325a81" : "6b6f52", "1c3553" : "485035" },
+  // PEACOAT BLUE
+  { "7db8d6" : "276286", "5588ab" : "1a425b", "325a81" : "0f2735", "1c3553" : "071219" },
+  // DARK PURPLE-INDIGO
+  { "7db8d6" : "413392", "5588ab" : "362b76", "325a81" : "2b2260", "1c3553" : "1d1643", "fcf132" : "ffeed4", "ffbf47" : "b0a696", "ea933d" : "656154", "89521c" : "47413b" },
+  // PINK
+  { "7db8d6" : "eab3db", "5588ab" : "d35eae", "325a81" : "97276d", "1c3553" : "59163f" },
+  // DEFAULT BROWN
+  { "7db8d6" : "d49c49", "5588ab" : "a38354", "325a81" : "735d3e", "1c3553" : "4c3d29", "fcf132" : "9ca7ae", "ffbf47" : "666e82", "ea933d" : "3c3c50", "89521c" : "282835" }
+  ]
+}

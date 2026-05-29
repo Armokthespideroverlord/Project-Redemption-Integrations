@@ -1,0 +1,17 @@
+{
+"protectoratestafflore" : [
+    [0, {
+      "fill" : [
+        {"weight" : 0.95, "item" : [ "protectorsstaffstory-codex", 1]},
+        {"weight" : 0.05, "pool" : "basicTreasure"},
+        {"weight" : 0.05, "pool" : "valuableTreasure"}
+      ],
+      "poolRounds" : [
+        [0.50, 3],
+        [0.30, 4],
+        [0.20, 5]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+}

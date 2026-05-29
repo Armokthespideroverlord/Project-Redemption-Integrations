@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/surface_impervium",
+    "value": [
+      [
+        0.5,
+        [
+          [
+            "coal",
+            0.9
+          ],
+          [
+            "copper",
+            0.6
+          ],
+          [
+            "r-impervium",
+            0.3
+          ]
+        ]
+      ]
+    ]
+  }
+]

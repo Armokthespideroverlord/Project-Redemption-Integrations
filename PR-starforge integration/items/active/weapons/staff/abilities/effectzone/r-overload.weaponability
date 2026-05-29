@@ -1,0 +1,16 @@
+{
+  "ability" : {
+    "type" : "r-overload",
+    "name" : "Overload",
+    "scripts" : ["/items/active/weapons/staff/abilities/effectzone/effectzone.lua"],
+    "class" : "EffectZone",
+
+    "energyCost" : 120,
+
+    "maxCastRange" : 25,
+
+    "projectileType" : "r-invisibleprojectile",
+    "projectileParameters" : {
+"timeToLive" : 0}
+  }
+}

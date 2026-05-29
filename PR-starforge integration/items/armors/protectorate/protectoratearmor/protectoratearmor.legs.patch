@@ -1,0 +1,19 @@
+[
+  {
+    "op": "replace",
+    "path": "/rarity",
+    "value": "Essential"
+  },
+{
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "^#008CD9;Protector's Greaves^white;"
+  },
+{
+    "op": "add",
+    "path": "/learnBlueprintsOnPickup",
+    "value": [
+      "starforge-exaltedprotectoratearmorlegs"
+    ]
+  }
+]

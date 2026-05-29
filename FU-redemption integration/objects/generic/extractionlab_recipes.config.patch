@@ -1,0 +1,35 @@
+[
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "inputs": {
+        "platinumsample": 1
+      },
+      "outputs": {
+        "platinumore": 1
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "inputs": {
+        "r-imperviumsample": 1
+      },
+      "outputs": {
+        "r-imperviumore": 1
+      }
+    }
+  },
+{
+    "op": "add",
+    "path": "/-",
+    "value":
+		{
+				"inputs": {"r-imperviumore": 1},
+				"outputs": {"goldore":[1,2,2], "violiumore":[1,1,1]}
+		}
+  }
+]

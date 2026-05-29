@@ -1,0 +1,6 @@
+[
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"starforge-coldfusioncore"} },
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"starforge-protectium"} },
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"starforge-terreneweave"} },
+{"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"starforge-protectorsbladeback-recipe"} }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/1",
+    "value": {
+      "item": "mercenaryhead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/2",
+    "value": {
+      "item": "mercenarychest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/3",
+    "value": {
+      "item": "mercenarylegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/4",
+    "value": {
+      "item": "trackerhead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/5",
+    "value": {
+      "item": "trackerchest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/6",
+    "value": {
+      "item": "trackerlegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/16",
+    "value": {
+      "item": "voyagerhead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/17",
+    "value": {
+      "item": "voyagerchest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/18",
+    "value": {
+      "item": "voyagerlegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/19",
+    "value": {
+      "item": "pathfinderhead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/20",
+    "value": {
+      "item": "pathfinderchest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/21",
+    "value": {
+      "item": "pathfinderlegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/30",
+    "value": {
+      "item": "camohead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/31",
+    "value": {
+      "item": "camochest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/32",
+    "value": {
+      "item": "camolegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/33",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/34",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/35",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/36",
+    "value": {
+      "item": "camohead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/37",
+    "value": {
+      "item": "camochest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/38",
+    "value": {
+      "item": "camolegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/39",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/40",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/41",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/42",
+    "value": {
+      "item": "camohead"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/43",
+    "value": {
+      "item": "camochest"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/44",
+    "value": {
+      "item": "camolegs"
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/45",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/46",
+    "value": {
+      "item": ""
+    }
+  },
+  {
+    "op": "replace",
+    "path": "/defaultBlueprints/tier1/47",
+    "value": {
+      "item": ""
+    }
+  },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "protectoratedoor" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "nr_protectoratehatch" } }
+]

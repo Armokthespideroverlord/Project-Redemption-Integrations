@@ -1,0 +1,15 @@
+{
+  "input" : [
+{ "item" : "starforge-terreneweave", "count" : 5 },
+	{ "item" : "brokenprotectoratebroadsword", "count" : 1 },
+	{ "item" : "raggedprotectoratecape", "count" : 1 },
+	{ "item" : "essence", "count" : 5000}
+  ],
+  "output" : {
+    "item" : "starforge-protectorsbladeback",
+    "count" : 1
+  },
+  "groups" : [ "starforge-starforge", "backwear" ],
+  "duration" : 2
+}
+

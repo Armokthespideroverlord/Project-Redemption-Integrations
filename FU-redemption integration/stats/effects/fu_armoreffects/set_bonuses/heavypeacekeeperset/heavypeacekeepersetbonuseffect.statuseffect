@@ -1,0 +1,10 @@
+{
+  "name" : "heavypeacekeepersetbonuseffect",
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "heavypeacekeepersetbonuseffect.lua"
+  ],
+  "scriptDelta": 60
+}
+

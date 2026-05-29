@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "add",
+    "path" : "/planetTypes/m32steppe/layers/surface/dungeons/-",
+    "value" : [ 1.0, "r-USCMbunker" ]
+  }
+]

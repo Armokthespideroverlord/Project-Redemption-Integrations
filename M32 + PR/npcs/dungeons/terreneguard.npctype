@@ -1,0 +1,238 @@
+{
+  "type" : "terreneguard",
+  "baseType" : "guard",
+
+
+  "scriptConfig" : {
+  "dialog" : {
+    "converse" : {
+      "default" : {
+        "default" : [
+          "To be honest, this my first time outside the solar system... I'm a bit nervous.",
+          "You're a Protector? Small galaxy, huh?",
+          "Those Matter Manipulators you Protectors have are like magic. I'm a bit jealous, honestly!",
+          "I actually never was officially accepted into the Guardians, they just took me along during the evacuation.",
+          "It's been a while, but everyone is still a bit fuzzy from the disaster.",
+          "I'm not quite sure what we're supposed to do now, we already failed our mission...",
+          "There's not much left for us to do, with earth gone.",
+          "The Terrene Guardians may be a bit old-fashioned, but we make up for that with a bit of spitshine and a bit of that Earthly spirit!",
+          "They really oughta label those status pods, it would significantly lower the injury rate..."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "They didn't ussed to like Floran. Floran sstabbed ssquigglymeatss for them, and now they do!",
+          "Floran joined the Guardianss to sstab thingss. But there were no thingss to sstab until now!",
+          "Think happy thoughtss! That'ss what Floran doess!",
+          "Floran knowss jusst how to ssurvive here, but Floran'ss comradess are cluelesss.",
+          "Floran got burned by one of thosse 'sstatuss podss' the other day."
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Orderly. Standing straight!",
+          "Worried. I believe I've dented my frame...",
+          "Eager. Reframing the situation has helped me immensely, this is the start of a grand adventure!",
+          "Neutral. I am trying to blot out some memories right now..."
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "Howdy, Protector! Y'got any plans now? We don't.",
+          "We've been stuck in th' dark for a while now, th' cap couldn't get th' communicator t' work.",
+          "I'm await'n orders right now.",
+          "I should've become a travelin' musician instead...",
+          "These 'ere guns ain't exactly quick draw material."
+        ]
+      },
+      "nuu" : {
+        "default" : [
+          "To be honest, this my first time outside the solar system.",
+          "Those Matter Manipulators you Protectors have are like magic. I am honestly a bit jealous!",
+          "I actually never officially was accepted into the Guardians. They just took me along during the evacuation.",
+          "It has been a while, but everyone is still a bit fuzzy from the disaster.",
+          "I am not quite sure what we are supposed to do now, we already failed our mission...",
+          "There is not much left for us to do, with earth gone.",
+          "The Terrene Guardians may be a bit old-fashioned, but we make up for that with a bit of spitshine and a bit of that Earthly spirit!",
+          "They ought to label those status pods, I almost got burned the other day.",
+
+          "I wish they issued welding goggles, my eyes burn every time I go out in the sun.",
+          "I am starting to think they dislike me, they groan at all of my jokes."
+        ]
+      },
+      "glutt" : {
+        "default" : [
+          "Nd t' gt m' hnds 'n trnsltr smdy.",
+          "Dn't mnd m.",
+          "Ths nfrm lks snzz 'n m', rght?"
+        ]
+      }
+    },
+    "greeting" : {
+      "default" : {
+        "default" : [
+          "To be honest, this my first time outside the solar system... I'm a bit nervous.",
+          "You're a Protector? Small galaxy, huh?",
+          "Those Matter Manipulators you Protectors have are like magic. I'm a bit jealous, honestly!",
+          "I actually never was officially accepted into the Guardians, they just took me along during the evacuation.",
+          "It's been a while, but everyone is still a bit fuzzy from the disaster.",
+          "I'm not quite sure what we're supposed to do now, we already failed our mission...",
+          "There's not much left for us to do, with earth gone.",
+          "The Terrene Guardians may be a bit old-fashioned, but we make up for that with a bit of spitshine and a bit of that Earthly spirit!",
+          "They really oughta label those status pods, it would significantly lower the injury rate..."
+        ]
+      },
+      "floran" : {
+        "default" : [
+          "They didn't ussed to like Floran. Floran sstabbed ssquigglymeatss for them, and now they do!",
+          "Floran joined the Guardianss to sstab thingss. But there were no thingss to sstab until now!",
+          "Think happy thoughtss! That'ss what Floran doess!",
+          "Floran knowss jusst how to ssurvive here, but Floran'ss comradess are cluelesss.",
+          "Floran got burned by one of thosse 'sstatuss podss' the other day."
+        ]
+      },
+      "glitch" : {
+        "default" : [
+          "Orderly. Standing straight!",
+          "Worried. I believe I've dented my frame...",
+          "Eager. Reframing the situation has helped me immensely, this is the start of a grand adventure!",
+          "Neutral. I am trying to blot out some memories right now..."
+        ]
+      },
+      "novakid" : {
+        "default" : [
+          "Howdy, Protector! Y'got any plans now? We don't.",
+          "We've been stuck in th' dark for a while now, th' cap couldn't get th' communicator t' work.",
+          "I'm await'n orders right now.",
+          "I should've become a travelin' musician instead...",
+          "These 'ere guns ain't exactly quick draw material."
+        ]
+      },
+      "nuu" : {
+        "default" : [
+          "To be honest, this my first time outside the solar system.",
+          "Those Matter mManipulators you Protectors have are like magic. I am honestly a bit jealous!",
+          "I actually never officially was accepted into the Guardians. They just took me along during the evacuation.",
+          "It has been a while, but everyone is still a bit fuzzy from the disaster.",
+          "I am not quite sure what we are supposed to do now, we already failed our mission...",
+          "There is not much left for us to do, with earth gone.",
+          "The Terrene Guardians may be a bit old-fashioned, but we make up for that with a bit of spitshine and a bit of that Earthly spirit!",
+          "They ought to label those status pods, I almost got burned the other day.",
+
+          "I wish they issued welding goggles, my eyes burn every time I go out in the sun.",
+          "I am starting to think they dislike me, they groan at all of my jokes."
+        ]
+      },
+      "glutt" : {
+        "default" : [
+          "Nd t' gt m' hnds 'n trnsltr smdy.",
+          "Dn't mnd m.",
+          "Ths nfrm lks snzz 'n m', rght?"
+        ]
+      }
+    }
+  }
+  },
+
+  "items" : {
+  "apex" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "avian" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "floran" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "glitch" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "human" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "hylotl" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "novakid" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "nuu" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourheadnuu", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ],
+  "glutt" : [
+    [0, [
+      {
+      "head" : [ { "name" : "protectoratefieldarmourhead", "data" : { "colorIndex" : [0] } } ],
+      "chest" : [ { "name" : "protectoratefieldarmourchestNPC", "data" : { "colorIndex" : [0] } } ],
+      "legs" : [ { "name" : "protectoratefieldarmourpants", "data" : { "colorIndex" : [0] } } ],
+      "primary" : [ "protectorateplasmarifle" ],
+      "sheathedprimary" : [ "durasteelshortsword" ]
+      }
+    ] ]
+  ]
+  }
+}

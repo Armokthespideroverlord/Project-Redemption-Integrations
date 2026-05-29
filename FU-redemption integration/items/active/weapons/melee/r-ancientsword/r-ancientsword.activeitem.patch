@@ -1,0 +1,4 @@
+[{"op": "replace","path": "/tooltipKind","value": "swordunique"}, {"op": "add","path": "/itemTags/-","value": "upgradeableWeapon"}, {"op": "add","path": "/itemTags/-","value": "ancient"},
+{"op": "add","path": "/critChance","value": 2},
+{"op": "add","path": "/critBonus","value": 1}
+]

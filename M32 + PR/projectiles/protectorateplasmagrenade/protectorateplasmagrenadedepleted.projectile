@@ -1,0 +1,14 @@
+{
+  "projectileName" : "protectorateplasmagrenadedepleted",
+  "image" : "protectorateplasmagrenadedepleted.png",
+  "animationCycle" : 1,
+  "frameNumber" : 1,
+  "damageKindImage" : "icon.png",
+  "timeToLive" : 10,
+  "bounces" : -1,
+  "power" : 20.0,
+  "speed" : 0,
+  "physics" : "grenade",
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}
