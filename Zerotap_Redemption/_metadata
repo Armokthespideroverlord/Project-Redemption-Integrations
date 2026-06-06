@@ -1,0 +1,12 @@
+{
+  "author" : "Armok",
+  "description" : "A version of https://steamcommunity.com/sharedfiles/filedetails/?id=1933726466&searchtext=zerotap (Zerotap dash) made to work with the power dash from project redemption\n\nCome join the official discord server for my mods for sneek peeks at future updates and planned content!: https://discord.gg/PFMNxFu\n\n",
+  "friendlyName" : "Zerotap Redemption edition",
+  "includes" : ["Blink Through"],
+  "link" : "steam://url/CommunityFilePage/2010696770",
+  "name" : "Zerotap Redemption edition",
+  "requires" : [],
+  "steamContentId" : "2010696770",
+  "tags" : "Miscellaneous|Mechanics",
+  "version" : "1.2"
+}

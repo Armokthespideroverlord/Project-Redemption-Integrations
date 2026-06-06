@@ -1,0 +1,12 @@
+[
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "zt_primedash.lua"
+	},
+	{
+		"op": "add",
+		"path": "/maximumDoubleTapTime",
+		"value": 0.01
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/scripts/-",
+		"value": "zt_power_dash.lua"
+	},
+{
+		"op": "replace",
+		"path": "/description",
+		"value": "While holding ^green;[Left]^white; or ^green;[Right]^white;, press the ^orange;Dash^white; key to quickly dash! Cooldown: 0.8s"
+	},
+	{
+		"op": "replace",
+		"path": "/maximumDoubleTapTime",
+		"value": 0.01
+	}
+]
