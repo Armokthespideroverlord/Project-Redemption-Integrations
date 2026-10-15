@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/scriptConfig/confiscateItems/2",
+    "value": "brokensidearm"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/skipIntroItems/-",
+    "value": "brokensidearm"
+  }
+]

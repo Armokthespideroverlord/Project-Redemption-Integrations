@@ -1,0 +1,11 @@
+{
+  "author" : "Armok_",
+  "description" : "This mod mostly exists to prevent a dependency loop issue from arising when using specific mods alongside both Project Redemption and certain mods from ShyDispath's Not Costume series (such as Not Costumes: Agarans). However it also serves as a one-stop-shop of patches supporting all of the intro missions included in the Not Costumes mod as well, so that you too can aquire the Damaged Handgun right at the start of things as any of the Not Costume races, instead of needing to rely on the Lost and Found merchant from Project Redemption itself.\n\nMods supported:\n[list]\n[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3809443041]Not Costumes: Agarans[/url]\n[/list]\n\nCredits: ShyDispatch for the Not Costume mods, Anomnom for the thumbnail, Chucklefish for what still remains a favorite game of mine.",
+  "friendlyName" : "Project Redemption - Not Costumes Integration",
+  "link" : "steam://url/CommunityFilePage/3820336954",
+  "name" : "Project Redemption - Not Costumes Integration",
+  "steamContentId" : "3820336954",
+  "tags" : "Miscellaneous|Quests|Dungeons|Species",
+  "includes" : ["NCagarans"],
+  "version" : "1.0"
+}
