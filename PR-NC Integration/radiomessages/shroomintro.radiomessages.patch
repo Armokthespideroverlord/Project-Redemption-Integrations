@@ -7,6 +7,6 @@
 {
     "op": "replace",
     "path": "/shroomProtectorateSwordPester/text",
-    "value": "I know their weaponry are badly damaged, but they can likely be repaired at a later time. Please take them."
+    "value": "I know their weaponry is badly damaged, but they can likely be repaired at a later time. Please take them."
   }
 ]
