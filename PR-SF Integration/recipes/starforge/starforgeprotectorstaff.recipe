@@ -2,7 +2,7 @@
   "input" : [
 	{ "item" : "essence", "count" : 5000},
 { "item" : "starforge-coldfusioncore", "count" : 1},
-{ "item" : "starforge-infusedtitanium", "count" : 10},
+{ "item" : "durasteelbar", "count" : 10},
 { "item" : "goldbar", "count" : 5}
 
 	

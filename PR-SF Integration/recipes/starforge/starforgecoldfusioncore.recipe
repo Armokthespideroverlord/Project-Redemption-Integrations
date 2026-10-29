@@ -1,10 +1,10 @@
 {
   "input" : [
-    { "item" : "starforge-ancientcore", "count" : 1 },
-	{ "item" : "starforge-etherealgoo", "count" : 1 },
-	{ "item" : "starforge-cerulium", "count" : 1 },
-	{ "item" : "starforge-yukaipearl", "count" : 1 },
-	{ "item" : "goldbar", "count" : 3 },
+    { "item" : "starforge-katahelcore", "count" : 1 },
+	{ "item" : "starforge-yukaipearl", "count" : 3 },
+	{ "item" : "starforge-etherealgoo", "count" : 3 },
+	{ "item" : "starforge-infusedscrap", "count" : 3 },
+	{ "item" : "goldbar", "count" : 5 },
 	{ "item" : "essence", "count" : 500}
   ],
   "output" : {

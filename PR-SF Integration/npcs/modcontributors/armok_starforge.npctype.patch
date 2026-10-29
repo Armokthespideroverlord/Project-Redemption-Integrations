@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/scriptConfig/dialog/converse/default/default/34",
+    "value": "The annihilation of Earth was a terrible tragedy that no one could have predicted. Naturally the ^purple;Occasus scum^reset; are capitalizing on it."
+  },
+  {
+    "op": "replace",
+    "path": "/scriptConfig/dialog/converse/default/default/50",
+    "value": "I wonder... What would happen if I ^#FFE998;exalted^reset; myself?"
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "According to rumor, one can find ruins of the lost \"^orange;K'Rakoth^reset;\" civilization in the depths of certain oceanic planets."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "I have heard that somewhere out there is an exploration fleet comprised of Protectorate Envoys. I wonder if they are aware that they are the sole ^orange;remnants of the Protectorate^reset; now..."
+  },
+{
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "You have little idea of just how horrific ^orange;Project Parasprite^reset; truly was..."
+  },
+  {
+    "op": "add",
+    "path": "/scriptConfig/dialog/converse/default/default/-",
+    "value": "All hail the Darkest Void!"
+  }
+]
